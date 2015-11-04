@@ -15,6 +15,7 @@ url: http://dengkui.space
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
+gavatar: /public/img/lm.jpg
 favicon: /public/img/lm.jpg
 
 
