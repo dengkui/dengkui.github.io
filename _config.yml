@@ -4,9 +4,8 @@ markdown: redcarpet
 
 # 作者信息
 author: 
-  name:  dengkui
-  email: 10102030126w@gmail.com
-  link: http://dengkui.space
+  name: 登登
+  email: dengdeng1110@163.com
   github: http://github.com/dengkui
 
 # 站点信息
@@ -16,13 +15,9 @@ url: http://dengkui.space
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/lm.jpg
-favicon: /public/img/lm.jpg
+gavatar: /public/img/lm.png
+favicon: /public/img/lm.png
 
-#duoshuo 设置
-duoshuo:
-  shortname: dengkui
-# disqus 设置
 
 # 主题设置，自动激活某个标签
 active: 读书
@@ -30,7 +25,7 @@ active: 读书
 # 首页除了最新文章外显示分类
 cates: 
   - 诗词
-  - 数据分析
+  - 软件
 
 # 中文本地化
 locals:
