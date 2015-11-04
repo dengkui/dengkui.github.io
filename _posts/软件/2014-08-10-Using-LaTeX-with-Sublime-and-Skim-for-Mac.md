@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在Mac上通过Sublime、Skim编辑LaTeX
-category: 技术
+category: 软件
 tags: LaTeX Mac
 keywords: 
 description: 
