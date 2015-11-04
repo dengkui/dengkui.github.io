@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 从二次型最优化问题中理解矩阵特征值的意义
-category: 科研
+category: 软件
 tags: Math Optimization 
 keywords: 特征值
 description: 
