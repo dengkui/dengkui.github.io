@@ -1,7 +1,11 @@
-<div class="footer">
-  <span>&copy;</span>
-  <span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
-  <a class="link-1" href="/">{{ site.title }}</a>
-  <br />
-  <span>Powered by <a class="link-1" href="http://jekyllrb.com/">Jekyll</a> with <a class="link-1" href="https://github.com/kkninjae/book">Book</a> theme.</span>
-</div>
+        <!-- Other JavaScripts -->
+        <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.url }}"></script>        
+        <script src="{{ "/assets/js/jquery.timeago.js" | prepend: site.url }}"></script>
+        <script>
+          {% include scripts/google-analytics.html %}
+          {% include scripts/page-effects.html %}
+          {% include scripts/sidebar.html %}
+          {% include scripts/timeago.html %}
+        </script>
+    </body>
+</html>
