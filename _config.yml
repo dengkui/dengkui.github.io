@@ -15,8 +15,8 @@ url: http://dengkui.space
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/safe.gif
-favicon: /public/img/safe.gif
+gavatar: /public/img/safe1.jpg
+favicon: /public/img/safe1.jpg
 
 
 # 主题设置，自动激活某个标签
