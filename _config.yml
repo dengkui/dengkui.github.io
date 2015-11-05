@@ -18,6 +18,11 @@ rss_url: /pages/atom.xml
 gavatar: /public/img/safe1.png
 favicon: /public/img/safe1.png
 
+#多说
+comments :
+     provider : duoshuo
+     duoshuo : 
+     short_name : dengkui
 
 # 主题设置，自动激活某个标签
 active: 读书
