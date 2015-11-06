@@ -124,3 +124,7 @@ blockquote p {
   width: 100%;
   margin-bottom: 40px;
 }
+/*隐藏评论框底部分享*/
+.ds-sync{
+display:none !important;
+}
