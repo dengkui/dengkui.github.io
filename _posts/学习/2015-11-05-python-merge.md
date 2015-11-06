@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 数据合并
-category: python
+category: 学习
 tags: 数据处理
 keywords: python，数据合并
 description: python数据处理优于R的部分
