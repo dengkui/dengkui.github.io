@@ -74,7 +74,7 @@ python中duplicated同R中一致，返回一个布尔类型series，而drop_dupl
     4  two   3   4
     6  two   4   6
 
-###利用函数或映射进行函数判断
+###利用函数或映射进行数据转换
 有时我们需要对数据进行映射，就是配对，不同的x对应不同的y，在R中可以利用merge函数实现，虽然merge函数并不是主要做这个的，python中就更简单了，直接使用map函数，它可以接受一个含有映射关系的字典，字典的对应不就是映射关系吗？map的一般用法是 map ( function ,sequence ),更多关于map的使用方法请map?
 
 示例：
