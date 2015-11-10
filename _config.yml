@@ -18,6 +18,11 @@ rss_url: /pages/atom.xml
 gavatar: /public/img/safe1.png
 favicon: /public/img/safe1.png
 
+# google analytics 设置
+ga:
+  id: UA-69951808-1 
+  url: dengkui.space
+  
 #多说
 comments :
      provider : duoshuo

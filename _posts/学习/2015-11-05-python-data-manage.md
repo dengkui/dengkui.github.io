@@ -99,9 +99,77 @@ python中duplicated同R中一致，返回一个布尔类型series，而drop_dupl
     7    honey ham     5.0     pig
     8     nova lox     6.0  salmon
 
+###过滤值
 
+有时候，我们需要对数据中满足某些条件的数据进行替换，也就是通常的过滤，在R语言中可以直接用索引[]来实现过滤和赋值，比如x是一个数据框，x>3就可以将x中大于3的给挑选出来，同时我们也可以对其进行赋值。但如果我们需要把数据框中满足某些条件的数据所在行给挑选出来，在R语言中就不能直接实现了。比如把x中大于3的数据所在行挑选出来，在R语言中实现就没有Python中简单。
+
+
+    import numpy as np
+    import pandas as pd
+    from pandas import DataFrame,Series
+    data = DataFrame(np.random.randn(1000,4))
+    data[(np.abs(data) >3).any(1)] #将数据中大于3的行挑选出来
+    Out[13]: 
+                0         1         2         3
+    20   0.464392 -3.563517  1.321106  0.152631
+    326  0.175091 -1.241138  0.614358  3.125635
+    333 -0.368085  3.109635 -0.623207  0.977718
+    417 -0.064638 -1.204956 -3.880898  0.974470
+    513  1.148495 -3.277304 -1.363946  1.564687
+    572 -0.711204  3.220568 -0.120112  0.342958
+    784 -3.233505  0.200243 -0.139337 -0.037094
+    981 -3.434819 -0.070283 -0.278044 -0.458230
+    
+    df = DataFrame(np.arange(5*4).reshape(5,4))
+    df <- data.frame(key = c("b",'b','a','c','a','b') , data1 = seq(0,5)
+
+###计算指标
+
+在将分类变量转换为指标矩阵或者哑变量矩阵，就是计量经济学里经常提到的哑变量，在R中可以通过数据重铸来实现，在python中就更简单了，用一个get_dummies函数就可以了。
+
+示例：Python
+
+    import pandas as pd
+    from pandas import DataFrame,Series
+    df = DataFrame({'key' : ['b','b','a','c','a','b'],
+    'data' : range(6)})
+    df
+    Out[4]: 
+       data key
+    0     0   b
+    1     1   b
+    2     2   a
+    3     3   c
+    4     4   a
+    5     5   b
+    pd.get_dummies(df['key'])
+    Out[5]: 
+       a  b  c
+    0  0  1  0
+    1  0  1  0
+    2  1  0  0
+    3  0  0  1
+    4  1  0  0
+    5  0  1  0
+
+示例：R
+
+    library(reshape2)
+    df <- data.frame(key = c('b','b','a','c','a','b') , data1 = seq(0,5) )
+    df$value = rep(1,6)
+    dcast(df , data1 ~ key , fill = 0)
+      data1 a b c
+    1     0 0 1 0
+    2     1 0 1 0
+    3     2 1 0 0
+    4     3 0 0 1
+    5     4 1 0 0
+    6     5 0 1 0
+
+在这个功能上，python显得更灵活一些。
 
 ##参考资料
+
 【1】利用python进行数据分析
 
 【2】[python 中的map,filter,reduce 函数](http://blog.sina.com.cn/s/blog_45ac0d0a010191rb.html)
