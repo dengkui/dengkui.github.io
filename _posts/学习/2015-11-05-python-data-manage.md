@@ -44,7 +44,7 @@ description: python数据处理优于R的部分
 
 在R中判断是否重复的函数是duplicated,即重复的意思，它可以对向量和数据框做运算，返回一个布尔值向量。在Python中也有类似的函数，不过更为强大，它直接提供了移除重复值的功能。
 
-python中duplicated同R中一致，返回一个布尔类型series，而drop_duplicates方法直接返回一个移除了重复值的数据框，同时，你还可以指定部分列进行重复值判断，是不是很灵活呢？更多内容请data.drop_duplicates?
+python中duplicated同R中一致，返回一个布尔类型series，而drop _ duplicates方法直接返回一个移除了重复值的数据框，同时，你还可以指定部分列进行重复值判断，是不是很灵活呢？更多内容请data.drop_duplicates?
 示例：
 
     data = DataFrame({'k1':['one']*3+['two']*4 , 'k2':[1,1,2,3,3,4,4]})
@@ -123,7 +123,7 @@ python中duplicated同R中一致，返回一个布尔类型series，而drop_dupl
     df = DataFrame(np.arange(5*4).reshape(5,4))
     df <- data.frame(key = c("b",'b','a','c','a','b') , data1 = seq(0,5)
 
-###计算指标
+###计算指标矩阵
 
 在将分类变量转换为指标矩阵或者哑变量矩阵，就是计量经济学里经常提到的哑变量，在R中可以通过数据重铸来实现，在python中就更简单了，用一个get_dummies函数就可以了。
 
@@ -168,7 +168,9 @@ python中duplicated同R中一致，返回一个布尔类型series，而drop_dupl
 
 在这个功能上，python显得更灵活一些。
 
-Python在数据处理方面完全不逊色于R，甚至比R更为灵活，因为它提供了更直接的方法，并不需要你去编写，直接用就可以了，使用人员只要充分发挥“拿来主义"就可以了。
+总结一下，在数据清理上，python和R都有merge函数，只是python中提供了一些索引合并方法，R中将索引作为单独的一列，就可以实现同样的效果。将数据变形，“长”变“宽”，R和python都提供了stack和unstack函数，除此之外，R中提供了万能的melt和cast组合，python则提供了pivot方法，至于数据替换，R和python都提供了replace函数，但在R中可以直接采用索引方式替换。重命名索引（行列名称），R和python都提供了rename函数，R中的在plyr包，但我还是习惯采用赋值的方式直接修改。数据划分区间，R和Python都提供了cut函数。字符串处理方法，R和Pyhon都提供了一系列函数，也都提供正则表达式方法。
+
+Python和R在数据处理功能上各有千秋，在某些方面，python提供了更直接的方法，比如这篇文章所讲的方法，并不需要你去编写，直接用就可以了，使用人员只要充分发挥“拿来主义"就可以了。
 
 
 ##参考资料
