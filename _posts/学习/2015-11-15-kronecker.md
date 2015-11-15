@@ -25,14 +25,13 @@ description:
 
 ##软件运算方法
 - R
-
     kronecker(A,B)
 
 - Python
-
+   
     import numpy as np
+   
     np.kron(x,y)
-
 
 ##参考资料
 【1】[博客园中应用LaTex进行公式编写](http://www.xuebuyuan.com/393838.html)
