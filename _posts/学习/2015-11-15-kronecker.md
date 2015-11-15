@@ -35,9 +35,11 @@ description:
 
 
 ##参考资料
-- [博客园中应用LaTex进行公式编写](http://www.xuebuyuan.com/393838.html)
-- [在线latex公式编辑器](http://www.codecogs.com/latex/eqneditor.php)
-- 多元统计分析引论
+【1】[博客园中应用LaTex进行公式编写](http://www.xuebuyuan.com/393838.html)
+
+【2】[在线latex公式编辑器](http://www.codecogs.com/latex/eqneditor.php)
+
+【3】多元统计分析引论
 
 
 
