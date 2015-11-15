@@ -8,7 +8,7 @@ description:
 ---
 ##kronecker积运算性质
 
--<div> <img src="http://latex.codecogs.com/gif.latex?\ 0\bigotimes A =A \bigotimes 0 = 0 " title="\0 \bigotimes A" /> </ div>
+- <div> <img src="http://latex.codecogs.com/gif.latex?\ 0\bigotimes A =A \bigotimes 0 = 0 " title="\0 \bigotimes A" /> </div>
 
 - <img src="http://latex.codecogs.com/gif.latex?\ (A_1 +A_2) \bigotimes B = (A_1 \bigotimes B) + (A_2 \bigotimes B)" title = "(A_1 + A_2) \bigotimes B" />
 
