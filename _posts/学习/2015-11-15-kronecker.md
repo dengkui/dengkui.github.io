@@ -8,7 +8,7 @@ description:
 ---
 ##kronecker积运算性质
 
-- <img src="http://latex.codecogs.com/gif.latex?\ 0\bigotimes A =A \bigotimes 0 = 0 " title="\0 \bigotimes A" />
+- <img src="http://latex.codecogs.com/gif.latex?\ 0\bigotimes A =A \bigotimes 0 = 0 " title="\0 \bigotimes A" align = "left" />
 
 - <img src="http://latex.codecogs.com/gif.latex?\ (A_1 +A_2) \bigotimes B = (A_1 \bigotimes B) + (A_2 \bigotimes B)" title = "(A_1 + A_2) \bigotimes B" />
 
@@ -21,7 +21,7 @@ description:
 - 如果<img src="http://latex.codecogs.com/gif.latex?\ A^{-1} " title = "A^{-1}" />
 ,<img src="http://latex.codecogs.com/gif.latex?\ B^{-1} " title = "B^{-1}" />存在，则 <img src="http://latex.codecogs.com/gif.latex?\(A \bigotimes B) ^ {-1} = A  ^{-1} \bigotimes B^{-1}" title = "A \bigotimes B) ^ {-1} = A  ^{-1} \bigotimes B^{-1}" />
 
-- <img src="http://latex.codecogs.com/gif.latex?\tr(A \bigotimes B) = tr(A)tr(B) " title = "tr(A \bigotimes B) = tr(A)tr(B)" />
+- <img src="http://latex.codecogs.com/gif.latex?\tr(A \bigotimes B) = tr(A) tr(B) " title = "tr(A \bigotimes B) = tr(A)tr(B)" />
 
 ##软件运算方法
 - R
