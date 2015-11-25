@@ -7,7 +7,9 @@ keywords: R，散点图矩阵
 description: 
 ---
 
-在观测多组数值型变量之间的数量关系时，散点图矩阵很有用。印象中的散点图矩阵应该是这样的（数据来自mtcars数据集）：
+在观测多组数值型变量之间的数量关系时，散点图矩阵很有用。
+
+印象中的散点图矩阵应该是这样的（数据来自mtcars数据集）：
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/smSM.png-wx" align=center />
 
@@ -117,8 +119,9 @@ description:
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/smSL.png-wx" align=center />
 
-   函数中的参数reg.line控制是否绘制线性回归线，而smooth控制是否绘制平滑拟合曲线，对角线参数diagonal控制对角线绘制图形类型，c("density", "boxplot", "histogram", "oned", "qqplot", "none")六种选择。更多细节请？scatterplotMatrix()，请事先加载car包。
-   当然lattice包中的splom函数也能实现很多功能，大家有兴趣，可以自己摸索一下。
+函数中的参数reg.line控制是否绘制线性回归线，而smooth控制是否绘制平滑拟合曲线，对角线参数diagonal控制对角线绘制图形类型，c("density", "boxplot", "histogram", "oned", "qqplot", "none")六种选择。更多细节请？scatterplotMatrix()，请事先加载car包。
+
+当然lattice包中的splom函数也能实现很多功能，大家有兴趣，可以自己摸索一下。
 
 ##参考资料 ##
 【1】 R语言自带文档
