@@ -11,9 +11,9 @@ R是一款可视化的利器，利用R可以做出很优雅的可视化图形。
 
 利用R语言做出可交互图形，有很多包可以选择，比如**ggvis，manipulate,rCharts**。
 
-对于manipulate包，它的函数简单，操作方便，便于上手，而且效果也不错。它对图形提供了4个控件，用来选择图形绘制中的参数的变化范围，这样我们就可以通过这些控件来对图形参数进行择，从而使图形产生交互效果。
+对于manipulate包，它的函数简单，操作方便，便于上手，而且效果也不错。它对图形提供了4个控件，用来选择图形绘制中的参数的变化范围，这样我们就可以通过这些控件来对图形参数进行选择，从而使图形产生交互效果。
 
-mainpulate包必须依赖于RStudio，所以必须安装RStudio，之后再下载安装加载manipulate包即可，加载完成后，可以通过输入isAvailable()函数来判断当前环境是否可以运行manipulate函数，可以运行返回TRUE，否则为FALSE。
+manipulate包必须依赖于RStudio，所以必须安装RStudio，之后再下载安装加载manipulate包即可，加载完成后，可以通过输入isAvailable()函数来判断当前环境是否可以运行manipulate函数，可以运行返回TRUE，否则为FALSE。
 
 manipulate包的主要函数为manipulate函数,此函数的用法为：manipulate(\`_ expr`, ...),其中_ expr指绘图函数，...指具体的控件设置，其中控件有四个：slider(滑动条),picker(选择器），checkbox（选择框），button(按钮）。
 
