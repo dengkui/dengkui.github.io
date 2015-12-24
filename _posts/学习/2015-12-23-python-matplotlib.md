@@ -31,6 +31,7 @@ description: 利用各种Python环境进行统计图形绘制
 输出结果是一个独立的图形窗口，可以对图形进行调整，并进行保存。
 
 示例：
+
     %matplotlib inline
     import matplotlib.pyplot as plt
     from numpy.random import randn
