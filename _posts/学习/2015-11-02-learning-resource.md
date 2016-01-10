@@ -25,6 +25,12 @@ description:
 
 【8】写给R菜鸟的ggplot2可视化指南，ggplot2是R语言进行数据可视化的常用包，可以方便生成各种美观的统计图，有专门一本书《ggplot2 数据分析与图形艺术》来介绍这个包。[文章链接](https://thomaslevine.com/!/introduction-to-ggplot2/)
 
+【9】ReporteRs包，用R来做ppt,excel。[ReporteRs主页](http://davidgohel.github.io/ReporteRs/gettingstarted.html)
+
+【10】plotly，交互式可视化，提供Matlab，Python,R接口。[Plotly主页](https://plot.ly/)
+
+
+
 未完待续
 
 ----------
