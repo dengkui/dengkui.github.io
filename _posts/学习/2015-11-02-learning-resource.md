@@ -29,6 +29,8 @@ description:
 
 【10】plotly，交互式可视化，提供Matlab，Python,R接口。[Plotly主页](https://plot.ly/)
 
+【11】[ RGB颜色值与十六进制颜色码转换工具](http://www.sioe.cn/yingyong/yanse-rgb-16/)
+
 
 
 未完待续
