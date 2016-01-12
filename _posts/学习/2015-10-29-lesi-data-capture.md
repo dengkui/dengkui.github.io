@@ -101,7 +101,7 @@ description:
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi22.png-wx" align=center />
 
 ##文件下载 
-【1】 <a href="1抓取新发地.docx"> 抓取新发地价格.docx</a>
+【1】 <a href="1抓取新发地.docx" download="xinfadi"> 抓取新发地价格.docx</a>
 
 
 
