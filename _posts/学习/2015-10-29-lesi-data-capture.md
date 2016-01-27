@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 乐思软件学习  抓取新发地价格信息
+title: 乐思软件  抓取新发地价格信息
 category: 学习
 tags:  数据抓取
 keywords: 乐思软件
@@ -100,8 +100,7 @@ description:
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi22.png-wx" align=center />
 
-##文件下载 
-【1】 <a href="http://vdisk.weibo.com/s/um9Ef8fymKp_R"> 抓取新发地价格.docx</a>
+
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Anaconda简介及安装教程
 category: 学习
-tags:  软件
+tags:  软件安装
 keywords: Anaconda Python
 description: 
 ---

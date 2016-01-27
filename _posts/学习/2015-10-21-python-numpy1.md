@@ -2,7 +2,7 @@
 layout: post
 title: Python numpy随机数生成和数学统计运算	
 category: 学习
-tags: 数学统计运算
+tags: 数据处理
 keywords: numpy 
 description: 
 ---

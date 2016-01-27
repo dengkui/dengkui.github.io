@@ -2,7 +2,7 @@
 layout: post
 title: kronecker积运算	
 category: 学习
-tags: 数学统计运算
+tags: 数学运算
 keywords: 叉积 kronecker
 description: 
 ---
