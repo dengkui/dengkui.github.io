@@ -8,7 +8,6 @@ body, html {
   height: 100%;
   overflow: hidden; 
   background-color: #303030;
-   background-image: url(/public/img/flower.jpg);
 }
 .row {
   height: 100%;
