@@ -81,7 +81,8 @@ body, html {
   overflow-y: auto;
   background-color: #fff;
   overflow-x: hidden;
-  background-image: url(/public/img/spring.jpg);
+
+  /*background-image: url(/public/img/bg_lines1.jpg);*/
 }
 .aside3-title {
   background-color: #f5f5f5;
