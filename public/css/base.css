@@ -7,7 +7,7 @@ body, html {
   margin: 0px;
   height: 100%;
   overflow: hidden; 
-  background-color: #303030;
+  background-color: #7d1b4a;
 }
 .row {
   height: 100%;
@@ -65,10 +65,10 @@ body, html {
 }
 /* 中部目录栏 */
 .aside2 {
-  /*background-color: #fafaf6;*#303030/
+  /*background-color: #fafaf6;*/
   /*background-image: url(/public/img/body_bg.jpg);*/
 
-  background-color: #7d1b4a ;
+  background-color: #303030 ;
   height: 100%;
   border-right: 2px solid #303030;
   overflow-y: auto;
@@ -82,8 +82,7 @@ body, html {
   overflow-y: auto;
   background-color: #fff;
   overflow-x: hidden;
-
-  /*background-image: url(/public/img/bg_lines1.jpg);*/
+  background-image: url(/public/img/lm.jpg);
 }
 .aside3-title {
   background-color: #f5f5f5;
