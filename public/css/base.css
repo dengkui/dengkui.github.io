@@ -8,6 +8,7 @@ body, html {
   height: 100%;
   overflow: hidden; 
   background-color: #303030;
+   background-image: url(/public/img/flower.jpg);
 }
 .row {
   height: 100%;
@@ -66,8 +67,6 @@ body, html {
 /* 中部目录栏 */
 .aside2 {
   /*background-color: #fafaf6;*/
-  background-image: url(/public/img/flower.jpg);
-  background-repeat: repeat-y;
   background-color: #303030;
   height: 100%;
   border-right: 2px solid #303030;
@@ -82,7 +81,6 @@ body, html {
   overflow-y: auto;
   background-color: #fff;
   overflow-x: hidden;
-  background-image: url(/public/img/spring.jpg);
   /*background-image: url(/public/img/bg_lines1.jpg);*/
 }
 .aside3-title {
