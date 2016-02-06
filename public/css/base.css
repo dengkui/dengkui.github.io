@@ -66,8 +66,7 @@ body, html {
 /* 中部目录栏 */
 .aside2 {
   /*background-color: #fafaf6;*/
-  /*background-image: url(/public/img/body_bg.jpg);*/
-
+  background-image: url(/public/img/flower.jpg);
   background-color: #303030;
   height: 100%;
   border-right: 2px solid #303030;
