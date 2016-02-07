@@ -72,6 +72,7 @@ Python作为一门工程语言，在数据抓取方面还是比较方便的。�
 和乐思软件抓取结果毫无二致，呵呵!
 
 ##参考资料
+
 【1】[Beautiful Soup 4.2.0 文档](http://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
 
 【2】[Python爬虫怎么获取下一页的URL和网页内容？](https://segmentfault.com/q/1010000003734875)
