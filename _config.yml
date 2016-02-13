@@ -1,5 +1,6 @@
 permalink: /:year/:month/:day/:title.html
 paginate: 6
+markdown: kramdown
 
 # 作者信息
 author: 
