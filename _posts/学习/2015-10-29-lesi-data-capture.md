@@ -9,17 +9,17 @@ description:
 
 在乐思软件中通过以下步骤，我们对新发地的商品价格进行抓取。
 
-<li>**1.** 打开软件，点击“配置任务”，将任务保存到新发地文件夹中。
+* **1.** 打开软件，点击“配置任务”，将任务保存到新发地文件夹中。
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi1.png-wx" align=center />
 
-<li>**2.**[新发地](http://www.xinfadi.com.cn/marketanalysis/0/list/1.shtml)上有下一页，因此网页特征点击主页面有下一页.
+* **2.**[新发地](http://www.xinfadi.com.cn/marketanalysis/0/list/1.shtml)上有下一页，因此网页特征点击主页面有下一页.
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi2.png-wx" align=center />
 
-<li>**3.**数据库参数设置默认即可，页面浏览设置默认即可。
+* **3.**数据库参数设置默认即可，页面浏览设置默认即可。
 
-<li>**4.**主页面浏览参数设置：观察到新发地页面点击蔬菜一栏时对应的网址中数字是1（红色箭头处），而点击水果时对应网址中的数字是2，依此类推。
+* **4.**主页面浏览参数设置：观察到新发地页面点击蔬菜一栏时对应的网址中数字是1（红色箭头处），而点击水果时对应网址中的数字是2，依此类推。
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi3.png-wx" align=center />
 
@@ -29,7 +29,7 @@ description:
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi5.png-wx" align=center />
 
-<li>**5.**主页面下一页参数中我们选择抓取前4页，选择3，软件实际抓取要多一页。下一页节点路径点击右侧三角，就会出现一个节点路径。
+* **5.**主页面下一页参数中我们选择抓取前4页，选择3，软件实际抓取要多一页。下一页节点路径点击右侧三角，就会出现一个节点路径。
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi6.png-wx" align=center />
 
@@ -41,7 +41,7 @@ description:
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi8.png-wx" align=center />
 
-<li>**6.**之后进入到表的配置，本页有21行观测值，因此一个页面对应多条记录选择是，节点集合路径通过网页探索器来寻找。
+* **6.**之后进入到表的配置，本页有21行观测值，因此一个页面对应多条记录选择是，节点集合路径通过网页探索器来寻找。
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi9.png-wx" align=center />
 
@@ -51,7 +51,7 @@ description:
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi11.png-wx" align=center />
 
-<li>**7.**在原始数据获取脚本中，添加变量，我们要获取数值，采用获取节点文本。
+* **7.**在原始数据获取脚本中，添加变量，我们要获取数值，采用获取节点文本。
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi12.png-wx" align=center />
 
@@ -61,13 +61,13 @@ description:
 
 采用同样的方法获取到三个变量，品名，最高价，时间。
 
-<li>**8.**点击数据变形脚本，点击右上角的插入引用原始数据的脚本，结果如下。
+* **8.**点击数据变形脚本，点击右上角的插入引用原始数据的脚本，结果如下。
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi14.png-wx" align=center />
 
-<li>**9.**动作脚本根据需要设置，本例中无须设置。
+* **9.**动作脚本根据需要设置，本例中无须设置。
 
-<li>**10.**点击结束，点击执行建表SQL
+* **10.**点击结束，点击执行建表SQL
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi15.png-wx" align=center />
 
@@ -75,7 +75,7 @@ description:
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi16.png-wx" align=center />
 
-<li>**11.**出现如下界面，点击左上角的绿色前进标志，执行程序，
+* **11.**出现如下界面，点击左上角的绿色前进标志，执行程序，
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi17.png-wx" align=center />
 
@@ -83,14 +83,14 @@ description:
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi18.png-wx" align=center />
 
-<li>**12.**任务完成后，点击箭头指向处，数据库查询。
+* **12.**任务完成后，点击箭头指向处，数据库查询。
 选择显示数量，点击执行，显示最终的数据结果，一页有85个数据，总共有4页，共420个数据。采集成功！
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi19.png-wx" align=center />
 
 <img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi20.png-wx" align=center />
 
-##附注：
+## 附注：
 
 如果要滤掉第一行的标题，可以在数据变形脚本中采用合法性判断，比如判断时间长度小于5的扔掉。
 

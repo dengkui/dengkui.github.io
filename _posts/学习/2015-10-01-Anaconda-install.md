@@ -39,7 +39,7 @@ Python的数据处理能力主要依赖于NumPy,SciPy,Matplotlib,Pandas这4个�
 
 现在，小伙伴们就可以愉快地进行学习了，而不必为了安装而心烦意乱！
 
-##**参考资料**
+## **参考资料**
 
 [1][Python科学计算发行版—Anaconda ](http://seisman.info/anaconda-scientific-python-distribution.html)
 

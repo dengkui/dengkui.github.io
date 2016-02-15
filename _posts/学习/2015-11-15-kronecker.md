@@ -6,7 +6,7 @@ tags: 数学运算
 keywords: 叉积 kronecker
 description: 
 ---
-##kronecker积运算性质
+## kronecker积运算性质
 
 - <div> <img src="http://latex.codecogs.com/gif.latex?\ 0\bigotimes A =A \bigotimes 0 = 0 " title="\0 \bigotimes A" /> </div>
 
@@ -23,7 +23,8 @@ description:
 
 - <div><img src="http://latex.codecogs.com/gif.latex?\tr(A \bigotimes B) = tr(A) tr(B) " title = "tr(A \bigotimes B) = tr(A)tr(B)" /></div>
 
-##软件运算方法
+## 软件运算方法
+
 - R
     kronecker(A,B)
 
@@ -33,7 +34,8 @@ description:
    
     np.kron(x,y)
 
-##参考资料
+## 参考资料
+
 【1】[博客园中应用LaTex进行公式编写](http://www.xuebuyuan.com/393838.html)
 
 【2】[在线latex公式编辑器](http://www.codecogs.com/latex/eqneditor.php)

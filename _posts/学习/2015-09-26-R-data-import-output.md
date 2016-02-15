@@ -78,7 +78,8 @@ write.table()函数参数设置；
 
 更多内容请学习参考资料。
 
-##参考资料
+## 参考资料
+
 [1] [R学习笔记(4): 使用外部数据](http://www.cnblogs.com/holbrook/archive/2013/05/16/3081331.html)
 
 [2] [R Data Import/Export](https://cran.r-project.org/doc/manuals/R-data.html)
