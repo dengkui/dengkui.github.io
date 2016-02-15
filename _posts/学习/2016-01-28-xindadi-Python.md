@@ -62,16 +62,16 @@ Python作为一门工程语言，在数据抓取方面还是比较方便的。�
 
 抓取后的数据存放文件是这样的：
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/xinfadi%E6%96%B0%E5%8F%91%E5%9C%B01.png-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/xinfadi%E6%96%B0%E5%8F%91%E5%9C%B01.png-wx"  ></div>
 
 打开之后，是这样的：
 
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/xinfadi%E6%96%B0%E5%8F%91%E5%9C%B02.jpg-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/xinfadi%E6%96%B0%E5%8F%91%E5%9C%B02.jpg-wx" ></div>
 
 和乐思软件抓取结果毫无二致，呵呵!
 
-##参考资料
+## 参考资料
 
 【1】[Beautiful Soup 4.2.0 文档](http://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/)
 

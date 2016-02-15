@@ -119,7 +119,7 @@ description:
 
 <div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/smSL.png-wx"  ></div>
 
-函数中的参数reg.line控制是否绘制线性回归线，而smooth控制是否绘制平滑拟合曲线，对角线参数diagonal控制对角线绘制图形类型，c("density", "boxplot", "histogram", "oned", "qqplot", "none")六种选择。更多细节请？scatterplotMatrix()，请事先加载car包。
+函数中的参数reg.line控制是否绘制线性回归线，而smooth控制是否绘制平滑拟合曲线，对角线参数diagonal控制对角线绘制图形类型，c("density", "boxplot", "histogram", "oned", "qqplot", "none")六种选择。更多细节请`？scatterplotMatrix()`，请事先加载car包。
 
 当然lattice包中的splom函数也能实现很多功能，大家有兴趣，可以自己摸索一下。
 
