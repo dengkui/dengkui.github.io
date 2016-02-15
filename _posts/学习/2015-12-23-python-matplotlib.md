@@ -39,7 +39,7 @@ description: 利用各种Python环境进行统计图形绘制
 
 输出结果在程序下方。
 
-##参考资料
+## 参考资料
 
 【1】[魔法（Magic）命令](http://hyry.dip.jp/tech/book/page/scipynew/ipython-200-notebook-magic.html)
 

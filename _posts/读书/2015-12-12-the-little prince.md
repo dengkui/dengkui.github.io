@@ -33,7 +33,7 @@ watered the flower for the last time, and prepared to place her under the shelte
 her glass globe, he realised that he was very close to tears.
 
 <li>"Then you shall judge yourself," the king answered. "that is the most difficult 
-thing of all. **It is much more difficult to judge oneself than to judge others.** If you 
+thing of all. *It is much more difficult to judge oneself than to judge others.* If you 
 succeed in judging yourself rightly, then you are indeed a man of true wisdom." 
 
 <li> Conceited people never hear anything 
