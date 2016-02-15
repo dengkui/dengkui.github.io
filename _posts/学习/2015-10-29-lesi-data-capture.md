@@ -100,7 +100,9 @@ description:
 
 <div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi22.png-wx" ></div>
 
-点击下载：[抓取天猫价格]({{site.url}}/assets/2抓取天猫手机.docx)
+## 更多学习案例下载
+
+点击下载乐思软件数据抓取学习案例：[乐思数据抓取案例]({{site.url}}/assets/乐思数据抓取案例)
 
 
 
