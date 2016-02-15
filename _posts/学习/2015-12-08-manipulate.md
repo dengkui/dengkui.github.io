@@ -51,7 +51,8 @@ manipulate包给了几个基础绘图函数的示例，比如下面这个示例�
 
 通过这些示例，我们可以理解manipulate函数的运行方式和原理，进而制作出一些可交互的图形，不过,manipulate包只能运行在RStudio环境中，而且动态的图形不能保存。如果要保存并在其他环境中展示交互统计图，我们还需要学习其他的R包。
 
-##参考资料
+## 参考资料
+
 【1】[manipulate 简介](http://mooc.guokr.com/note/12762/)
 
 【2】manipulate包自带文档

@@ -63,7 +63,7 @@ she is my rose.
 　　"Goodbye," said the fox. "And now here is my secret, a very simple secret: **It is 
 only with the heart that one can see rightly; what is essential is invisible to the eye.**" 
 
-"What is essential is invisible to the eye," the little prince repeated, so that he 
+　　"What is essential is invisible to the eye," the little prince repeated, so that he 
 would be sure to remember. 
 "It is the time you have wasted for your rose that makes your rose so 
 important." 
