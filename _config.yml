@@ -1,6 +1,8 @@
 permalink: /:year/:month/:day/:title.html
 paginate: 6
 markdown: kramdown
+kramdown:
+  input: GFM
 
 # 作者信息
 author: 
