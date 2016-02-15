@@ -7,19 +7,19 @@ keywords:
 description: 
 ---
 
-1. Whenever I met one of them who seemed to me at all clear-sighted, I tried the experiment of showing him my Drawing Number One, which I have always kept. I would try to find out, so, if this was a person of true understanding. But, whoever it 
+* Whenever I met one of them who seemed to me at all clear-sighted, I tried the experiment of showing him my Drawing Number One, which I have always kept. I would try to find out, so, if this was a person of true understanding. But, whoever it 
 was, he, or she, would always say:"That is a hat." Then I would never talk to that person about boa constrictors, or primeval forests, or stars. I would bring myself down to his level. I would talk to him about bridge, and golf, and politics, and neckties. And the grown-up would be greatly pleased to have met such a sensible man. 
 
-2. "One day," you said to me, "I saw the sunset forty-four times!"   
+* "One day," you said to me, "I saw the sunset forty-four times!"   
 
-And a little later you added: **"You know-- one loves the sunset, when one is so sad..."**
+ 　　And a little later you added: **"You know-- one loves the sunset, when one is so sad..."**
 
-"Were you so sad, then?" I asked, "on the day of the forty-four sunsets?"**试验**
+　　"Were you so sad, then?" I asked, "on the day of the forty-four sunsets?" 
 
+　　But the little prince made no reply.  
 
-But the little prince made no reply.  
+3.  
 
-<li>
 It is such a secret place, the land of tears.
 
 <li>The little prince also pulled up, with a certain sense of dejection, the last little 
