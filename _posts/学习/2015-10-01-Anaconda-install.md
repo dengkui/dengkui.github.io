@@ -14,27 +14,27 @@ Python的数据处理能力主要依赖于NumPy,SciPy,Matplotlib,Pandas这4个�
 
 而IPyhon的安装较为麻烦和复杂，一般人很难安装成功，幸好有大神将科学计算所需要的模块以及IPython打包供用户使用，Anaconda就是其中较好的一个。简言之，安装了Anaconda，你就安装了Python+NumPy+SciPy+Matplotlib+IPython+IPython Notebook。所以，我们仅仅安装Anaconda就可以了！[Anaconda下载地址](http://continuum.io/downloads)。页面如下：
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondaAnaconda%E4%B8%8B%E8%BD%BD%E7%95%8C%E9%9D%A2.jpg-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondaAnaconda%E4%B8%8B%E8%BD%BD%E7%95%8C%E9%9D%A2.jpg-wx"  ></div>
 
 根据自己的系统选择相应版本进行下载（下载速度可能会有点慢），下载之后点击运行就可以安装了，和一般软件安装毫无二致，无需编译。安装成功后的效果如下：
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/anaconda%E5%AE%89%E8%A3%85%E5%90%8E%E7%9A%84%E7%95%8C%E9%9D%A2.png-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/anaconda%E5%AE%89%E8%A3%85%E5%90%8E%E7%9A%84%E7%95%8C%E9%9D%A2.png-wx"  ></div>
 
 在这里有Anaconda管理器（Anaconda Command Prompt），IPython Notebook,IPython QT,IPython,Spyder。点击IPython,就进入了IPython的界面。
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondaIPython%E7%95%8C%E9%9D%A2.png-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondaIPython%E7%95%8C%E9%9D%A2.png-wx"  ></div>
 
 到此为止，IPython就算安装成功了，是不是很方便，很简单！之后，我们可以在命令行（也就是cmd）中输入pip list 或conda list或者在Anaconda管理器中输入conda list来查看已经安装的库，效果如下：
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondacmd%20Anaconda.png-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondacmd%20Anaconda.png-wx"  ></div>
 
 从这些库中我们可以发现文章开始的4个库，说明已经安装成功了!
 
 虽然IPython是极好的，但是，IPython Notebook则更进了一步，允许我们在浏览器上进行编程并进行演示，效果非常好！我们已经安装了IPython Notebook了，直接点击进入，这时浏览器会自动打开网页，这是home主页，如下图，然后点击右上角的new，创建新的python文本就可以了（可能遇到小故障，请按其提示操作）！
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondaIPNBHome.jpg-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondaIPNBHome.jpg-wx"  ></div>
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondaIPNB.jpg-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/anacondaIPNB.jpg-wx" ></div>
 
 
 现在，小伙伴们就可以愉快地进行学习了，而不必为了安装而心烦意乱！
