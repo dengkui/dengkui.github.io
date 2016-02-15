@@ -174,7 +174,7 @@ np.cumprod(a, axis=None, dtype=None, out=None)
 
 Numpy提供了一些用于一维数组的基本集合运算，涉及集合的交并差，这部分函数与R的dplyr包中相同功能的函数类似，比如set系列函数。
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/numpy集合运算.png-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/numpy集合运算.png-wx"></div>
 
 到此为止，numpy库中的基本函数及用法都介绍完了。
 

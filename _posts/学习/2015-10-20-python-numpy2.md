@@ -27,7 +27,7 @@ description:
 
  一个3×3的数组，从左到右的数字对应表示由表及里的维度，也就是轴，按照索引给轴编号依次为“轴0“，“轴1”。它的秩为2。
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/numpy轴1.png-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/numpy轴1.png-wx"  ></div>
 
 类似的，一个3×3×2的数组，按照索引给轴编号依次为“轴0”，“轴1”，“轴2“。它的秩为3。
     
@@ -62,7 +62,7 @@ description:
     
 基本索引和切片：根据轴的编号确定索引位置。注意Python从0开始。
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/numpy轴2.png-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/numpy轴2.png-wx"  ></div>
 
 （1）访问元素
 

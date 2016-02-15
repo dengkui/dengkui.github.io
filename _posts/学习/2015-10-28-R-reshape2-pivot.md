@@ -75,7 +75,7 @@ data是要变换的数据框,id.vars是每个观测值的标识id变量，mearsu
     
 先借用一张《R语言实战》中的melt示意图吧!
 
-<img src="http://7xo51k.com1.z0.glb.clouddn.com/melt.png-wx" align=center />
+<div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/melt.png-wx"  ></div>
 
 我们要揉的原始数据是这样的：
 
