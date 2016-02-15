@@ -17,7 +17,7 @@ was, he, or she, would always say:"That is a hat." Then I would never talk to th
 "One day," you said to me, "I saw the sunset forty-four times!" 
 
 And a little later you added: 
-**"You know-- one loves the sunset, when one is so sad...**" 
+**"You know-- one loves the sunset, when one is so sad..."** 
 
 "Were you so sad, then?" I asked, "on the day of the forty-four sunsets?" 
 
