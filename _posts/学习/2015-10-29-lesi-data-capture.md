@@ -100,6 +100,7 @@ description:
 
 <div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/lesi22.png-wx" ></div>
 
+点击下载：【抓取天猫价格】({{site.url}}/assets/2抓取天猫手机.docx)
 
 
 
