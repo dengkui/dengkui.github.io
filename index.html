@@ -47,16 +47,16 @@ titlename: 首页
     {% if page == paginator.page %}
       <em>{{ page }}</em>
     {% elsif page == 1 %}
-     <font size="3"> <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></font>
+     <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
      <font size="3"> <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></font>
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
-   <font size="3"> <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></font>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
   {% else %}
-    <span>Next &raquo;</span>
+   <font size="3"> <span>Next &raquo;</span></font>
   {% endif %}
 </div>
 {% endif %}
