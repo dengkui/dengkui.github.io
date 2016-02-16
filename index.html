@@ -41,14 +41,14 @@ titlename: 首页
   {% if paginator.previous_page %}
    <font size="3"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></font>
   {% else %}
-    <span>&laquo; Prev</span>
+    <font size="3"><span>&laquo; Prev</span></font>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <em><font size="5">{{ page }}</font></em>
     {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      <font size="3"><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></font>
     {% else %}
       <font size="3"><a href="{{ '/blog/page:num' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></font>
     {% endif %}
@@ -57,7 +57,7 @@ titlename: 首页
   {% if paginator.next_page %}
    <font size="3"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></font>
   {% else %}
-    <span>Next &raquo;</span>
+    <font size="3"><span>Next &raquo;</span></font>
   {% endif %}
 </div>
 {% endif %}
