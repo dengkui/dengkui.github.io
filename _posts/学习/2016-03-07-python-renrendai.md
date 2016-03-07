@@ -10,12 +10,12 @@ description: 利用Python抓取人人贷散标及借款人数据
 
 虽然之前折腾了两个网站的抓取，但这个网站的抓取真叫人**抓狂**，主要遇到的是两个问题
 
-1. 散标投资数据网站不同页面的源代码相同，虽然不同页面的显示不同！（**莫名其妙！**）
+1. 散标投资网站不同页面的源代码相同，虽然不同页面显示的数据不同！（**莫名其妙！**）
 2. 借贷人个人信息需要登录之后才能抓取
 
 首先解决第一个问题：既然不同页面的数据显示是不相同的，那么数据来源肯定不同，需要找到真正的数据来源网址。 采用Chrome的F12-Network-XHR来查看请求，在请求中找到数据并查找来源，通过不断的点击不同页面，发现不同页面数据的真正来源。之后按照一般思路就可以解决了，还好数据是Json格式的，方便处理。
 
-对于第二个问题：一般的解决思路是模拟浏览器登录网站，登录成功后再抓取网页并解析。这个看似简单的思路却折腾时间最长，主要原因还是对浏览器登录访问网站的原理不清楚。我们可以通过提交用户名和密码来登录网站，登录之后，通过向服务器发送带Cookie的请求，就可以实现登录了。我这里使用一个简单的方法，算是偷懒了。因为用Python生成的Cookies没有成功登录，所以我就抓取了网站登录成功后的Cookie来构建headers，之后利用这个headers发送post请求。
+对于第二个问题：一般的解决思路是模拟浏览器登录网站，登录成功后再抓取网页并解析。这个看似简单的思路却折腾时间最长，主要原因还是对浏览器登录访问网站的原理不清楚。我们可以通过提交用户名和密码来登录网站，登录之后，通过向服务器发送带Cookie的请求，就可以实现登录了。我这里使用一个简单的方法，算是偷懒了，直接采用登录后的Cookie。因为用Python生成的Cookies没有成功登录，所以我就抓取了网站登录成功后的Cookie来构建headers，之后利用这个headers发送post请求。
 
 模拟登陆时所使用的`username`和`password`是登陆网页中登陆框对应的tag中的name,不同的网站可能不一样。
 
@@ -48,13 +48,13 @@ description: 利用Python抓取人人贷散标及借款人数据
        'startTime', 'status', 'surplusAmount', 'title', 'utmSource'])#网页源码获取
     i=1
     while i<= 51 : #51是最后一页
-    url = "http://www.we.com/lend/loanList!json.action?pageIndex=%s&" % i #数据的真正来源
-    resp=requests.get(url,headers=headers) #获取页面
-    html=resp.text #页面文字
-    data_dic = json.loads(html)
-    data=DataFrame(data_dic['data']['loans'])
-    table=pd.concat([table,data])
-    i += 1
+        url = "http://www.we.com/lend/loanList!json.action?pageIndex=%s&" % i #数据的真正来源
+        resp=requests.get(url,headers=headers) #获取页面
+        html=resp.text #页面文字
+        data_dic = json.loads(html)
+        data=DataFrame(data_dic['data']['loans'])
+        table=pd.concat([table,data])
+        i += 1
 	#保存文件
     file_name='人人贷.csv'
     table.to_csv(file_name,header=False) #将整理后的数据写入csv格式文档
