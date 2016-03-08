@@ -6,7 +6,7 @@ tags:  数据抓取
 keywords: Python  抓取人人贷
 description: 利用Python抓取人人贷散标及借款人数据
 ---
-应同学之求，试着抓取了人人贷网站上[散标投资数据](http://www.we.com/fund/fundInfoAction!tolist.action)和借贷人的个人信息数据。
+应同学之请求，试着抓取了人人贷网站上[散标投资数据](http://www.we.com/fund/fundInfoAction!tolist.action)和借贷人的个人信息数据。
 
 虽然之前折腾了两个网站的抓取，但这个网站的抓取真叫人**抓狂**，主要遇到的是两个问题
 
@@ -64,7 +64,7 @@ description: 利用Python抓取人人贷散标及借款人数据
     s=requests.session()
     rrd=pd.read_csv('loadId.csv')
     loanId=rrd.ix[:,'loanId']
-    headers['Cookie']='rrdLoginCartoon=rrdLoginCartoon; newuser=new; Hm_lvt_71ce3105a964d0c3748e04584e5af0b9=1457060777,1457078309,1457157739,1457306829; Hm_lpvt_71ce3105a964d0c3748e04584e5af0b9=1457307045; Hm_lvt_2547238860b5ae69d69cae60a725236c=1457060777,1457078309,1457157739,1457306829; Hm_lpvt_2547238860b5ae69d69cae60a725236c=1457307045; Hm_lvt_16f9bb97b83369e62ee1386631124bb1=1457227320,1457227562,1457231071,1457305815; Hm_lpvt_16f9bb97b83369e62ee1386631124bb1=1457308752; JSESSIONID=14343A739C683A0602A5171155C3132B1E2B35EBA7FDCBEE9B99BDC5C89F87F8; jforumUserInfo=iTl5UMRb2UCOWMLi21HHnzCyIgL4BGPO%0A; IS_MOBLIE_IDPASS=true-false; activeTimestamp=5009119; renrendaiUsername=""'#通过获取网页请求数据可得
+    headers['Cookie']=' rrdLoginCartoon=rrdLoginCartoon; newuser=new; Hm_lvt_71ce3105a964d0c3748eaf0b9=147060777,14778309,14715739,147306829; Hm_lpvt_71ce3105a964d0c3748e04584a5af0b9=145307045; Hm_lvt_254723880b5ae69d69cae60a725236c=147060777,147078309,147157739,147306829; Hm_lpvt_2547238861b5ae69d69cae60a725236c=147307045; Hm_lvt_16f9bb97b83369e62ee0386631124bb1=147227320,147227562,147231071,147305815; Hm_lpvt_16f9bb97b83369e62ee1386631124bb1=147308752; JSESSIONID=14343A739C682A0602A5171155C3132B1E2B35EBA7FDCBEE9B99BDC5C89F87F8; jforumUserInfo=iTl5UMRb1UCOWMLizCyIgL4BGPO%0A; IS_MOBLIE_IDPASS=true-false; activeTimestamp=5009119; renrendaiUsername=""'#通过获取网页请求数据可得,有改动
 
     i = 0
     while i <= len(loanId):
@@ -101,3 +101,5 @@ description: 利用Python抓取人人贷散标及借款人数据
 【1】 各类Python爬虫帖子
 
 【2】 Python for Data Analysis
+
+【3】[Python Requests快速入门](http://blog.csdn.net/iloveyin/article/details/21444613)
