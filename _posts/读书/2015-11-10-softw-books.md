@@ -108,12 +108,4 @@ books:
       link: http://book.douban.com/subject/20440928/
       cover: http://img3.doubanio.com/lpic/s27989936.jpg
       description: 基础入门知识，很详细
-    - title: Python核心编程（第二版）
-      status: 已读
-      author: [美]Wesley J. Chun（陳仲才）   
-      publisher: 人民邮电出版社
-      language: 中文
-      link: https://book.douban.com/subject/3112503/
-      cover: https://img3.doubanio.com/lpic/s3140466.jpg
-      description: 基础入门知识
 ---
