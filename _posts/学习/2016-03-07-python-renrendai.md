@@ -35,39 +35,33 @@ description: 利用Python抓取人人贷散标及借款人数据
 
     #抓取散标信息
     headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'}#设置headers，通过查看浏览器数据得到
-    table=DataFrame(np.array(['allowAccess', 'amount', 'amountPerShare', 'beginBidTime', 'borrowerId',
+    column = ['allowAccess', 'amount', 'amountPerShare', 'beginBidTime', 'borrowerId',
        'borrowerLevel', 'currentIsRepaid', 'displayLoanType', 'finishedRatio',
        'forbidComment', 'interest', 'interestPerShare', 'leftMonths', 'loanId',
        'loanType', 'months', 'nickName', 'oldLoan', 'openTime', 'overDued',
-       'picture', 'principal', 'productId', 'readyTime', 'repaidByGuarantor',
-       'startTime', 'status', 'surplusAmount', 'title', 'utmSource']).reshape(1,30),columns=['allowAccess', 'amount', 'amountPerShare', 'beginBidTime', 'borrowerId',
-       'borrowerLevel', 'currentIsRepaid', 'displayLoanType', 'finishedRatio',
-       'forbidComment', 'interest', 'interestPerShare', 'leftMonths', 'loanId',
-       'loanType', 'months', 'nickName', 'oldLoan', 'openTime', 'overDued',
-       'picture', 'principal', 'productId', 'readyTime', 'repaidByGuarantor',
-       'startTime', 'status', 'surplusAmount', 'title', 'utmSource'])#网页源码获取
+       'principal', 'productId', 'readyTime', 'repaidByGuarantor',
+       'startTime', 'status', 'surplusAmount', 'title', 'utmSource']
+    databid=DataFrame(np.array(column).reshape(1,29),columns= column)
     i=1
-    while i<= 51 : #51是最后一页
-        url = "http://www.we.com/lend/loanList!json.action?pageIndex=%s&" % i #数据的真正来源
+    while i<= 51 :
+        url = "http://www.we.com/lend/loanList!json.action?pageIndex=%s&" % i
         resp=requests.get(url,headers=headers) #获取页面
         html=resp.text #页面文字
         data_dic = json.loads(html)
-        data=DataFrame(data_dic['data']['loans'])
-        table=pd.concat([table,data])
+        data=DataFrame(data_dic['data']['loans'],columns=column)
+        databid=pd.concat([databid,data])
         i += 1
-	#保存文件
-    file_name='人人贷.csv'
-    table.to_csv(file_name,header=False) #将整理后的数据写入csv格式文档
 
+    databid.to_csv('人人贷.csv',header=False) #将整理后的数据写入csv格式文档
     #抓取借贷人信息
-    table=DataFrame(np.array(['严重逾期', '还清笔数', '信用评分', '信用额度', '年龄', '车贷', '房贷', '逾期次数', '公司规模', '岗位职位', '待还本息', '工作时间', '车产', '逾期金额', '学历', '成功借款', '公司行业', '借款总额', '房产', '婚姻', '收入', '申请借款', '工作城市', '昵称']).reshape(1,24),columns=['严重逾期', '还清笔数', '信用评分', '信用额度', '年龄', '车贷', '房贷', '逾期次数', '公司规模', '岗位职位', '待还本息', '工作时间', '车产', '逾期金额', '学历', '成功借款', '公司行业', '借款总额', '房产', '婚姻', '收入', '申请借款', '工作城市', '昵称'])
+    datauser=DataFrame(np.array(['严重逾期', '还清笔数', '信用评分', '信用额度', '年龄', '车贷', '房贷', '逾期次数', '公司规模', '岗位职位', '待还本息', '工作时间', '车产', '逾期金额', '学历', '成功借款', '公司行业', '借款总额', '房产', '婚姻', '收入', '申请借款', '工作城市', '昵称']).reshape(1,24),columns=['严重逾期', '还清笔数', '信用评分', '信用额度', '年龄', '车贷', '房贷', '逾期次数', '公司规模', '岗位职位', '待还本息', '工作时间', '车产', '逾期金额', '学历', '成功借款', '公司行业', '借款总额', '房产', '婚姻', '收入', '申请借款', '工作城市', '昵称'])
     s=requests.session()
-    rrd=pd.read_csv('loadId.csv')
-    loanId=rrd.ix[:,'loanId']
     headers['Cookie']=' rrdLoginCartoon=rrdLoginCartoon; newuser=new; Hm_lvt_71ce3105a964d0c3748eaf0b9=147060777,14778309,14715739,147306829; Hm_lpvt_71ce3105a964d0c3748e04584a5af0b9=145307045; Hm_lvt_254723880b5ae69d69cae60a725236c=147060777,147078309,147157739,147306829; Hm_lpvt_2547238861b5ae69d69cae60a725236c=147307045; Hm_lvt_16f9bb97b83369e62ee0386631124bb1=147227320,147227562,147231071,147305815; Hm_lpvt_16f9bb97b83369e62ee1386631124bb1=147308752; JSESSIONID=14343A739C682A0602A5171155C3132B1E2B35EBA7FDCBEE9B99BDC5C89F87F8; jforumUserInfo=iTl5UMRb1UCOWMLizCyIgL4BGPO%0A; IS_MOBLIE_IDPASS=true-false; activeTimestamp=5009119; renrendaiUsername=""'#通过获取网页请求数据可得,有改动
-
-    i = 0
-    while i <= len(loanId):
+   
+    loanId = list(databid['loanId'])
+    i = 1
+    num = len(loanId)
+    while i <= num:
         loanid=loanId[i]
         timestamp=str(int(time.time())) + '%03d' % random.randint(0,999)
         urll="http://www.we.com/lend/detailPage.action?loanId=%.0f&timestamp=" % loanid+timestamp
@@ -89,12 +83,58 @@ description: 利用Python抓取人人贷散标及借款人数据
                 value = valuetag.string
             userinfo[var]=value
         data = DataFrame(userinfo)
-        table=pd.concat([table,data])
+        datauser=pd.concat([datauser,data])
         i += 1
 
-    table.to_csv('userinfo.csv',header=False)
+    datauser['loanId']=loanId
+    datauser.to_csv('userinfo.csv',header=False)
 
-到这儿基本的数据抓取就完成了，剩下的任务就是对数据进行整理清洗。
+到这儿基本的数据抓取就完成了，剩下的任务就是对数据进行整理清洗。在个人信息数据中，常常包含有'100.00元','1,234.56元'这样的数据，而我们在分析的时候，是需要对这些数据进行整理成我们需要的格式，比如'100.00','1234.56'。要实现这样的结果，我们需要结合正则表达式对数据进行提取。
+针对**datauser**中的数据，我的解决思路是这样的：首先结合循环和正则表达式将数据提取出来，之后将提取出的标准数据赋值给原始的变量。
+
+以下是解决代码：读取数据是为了消除第一行的变量名称，也可以在原始数据中直接丢弃第一行的变量名进行运算。
+
+    datauser = pd.read_csv('userinfo.csv',encoding='gbk')
+    name1 = ['严重逾期','成功借款','申请借款','还清笔数','逾期次数']
+    for name in name1:
+        demo = []
+        for item in datauser[name]:
+            demo.append(re.findall('\d+',item)[0])
+        datauser[name] = demo
+	
+    name2=['信用额度','借款总额','待还本息','逾期金额']
+    for name in name2:
+        demo1 = []
+        for item in datauser[name]:
+            demo1.append(re.findall('\d*\D?\d+\D?\d{2}',item))
+        demo2 = []
+        num = len(demo1)
+        for i in range(num) :
+            demo2.append(demo1[i][0].replace(',',''))
+         datauser[name] = demo2
+
+    databid = pd.read_csv('databid.csv',encoding='gbk')
+    data = pd.merge(databid,datauser,on='loanId') #合并数据集
+    data.to_csv('AllData.csv',header=False)  #输出到csv文件
+
+上面的代码是普通的语法，需要循环解决，我们可以进一步使用apply方法，类似于R语言中的apply函数，可以直接对行列进行函数运算，默认是行运算(`axis=0`),效果要好。以下是代码：
+
+    datauser = pd.read_csv('userinfo.csv',encoding='gbk')
+    def num(x) : return(re.findall('\d+',x)[0])
+    name1 = ['严重逾期','成功借款','申请借款','还清笔数','逾期次数']
+    for name in name1:
+        datauser[name] = datauser[name].apply(num)
+
+    name2=['信用额度','借款总额','待还本息','逾期金额']
+    def numcom(x):
+       a = re.findall('\d*\D?\d+\D?\d{2}',x)
+       return(a[0].replace(',',''))
+    for name in name2:
+        datauser[name]=datauser[name].apply(numcom)
+
+在Excel中处理这样的数据问题的解决办法可以参考另一篇文章：[Excel中处理数据格式](http://dengkui.space/2016/03/15/Excel-problem.html)
+
+
 
 ## 参考资料
 

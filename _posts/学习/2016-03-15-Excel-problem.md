@@ -29,6 +29,9 @@ description: Excel处理数据的一些常见问题
 
 虽然Excel处理这样的混合型数据也比较方便，但在运行时，发现运行速度实在太慢了，还是想想用R/Python实现吧……
 
+Python的实现方法可以从另一篇文章中看到：[Python 抓取人人贷数据](http://dengkui.space/2016/03/07/python-renrendai.html)
+
+R的解决方法和Python类似，在此不再赘述。
 
 ## 参考资料
 
