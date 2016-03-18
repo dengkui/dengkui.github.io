@@ -22,7 +22,7 @@ description: Mysql的安装过程
 
 <div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/Mysqlmysql2.jpg-wx" ></div>
 
-我们通过cmd来启动/关闭Mysql服务，打开cmd（win+R快捷键，输入cmd回车即可），在cmd中输入 `net start mysql`，来启动Mysql。其他功能实现请查看参考资料1。我在输入`net start mysql`后，cmd提示服务名无效。后来通过查看服务名，得知mysql的服务名为MYSQL57，因此，在启动时，输入命令为`net start mysql57` 就可以正常启动了，关闭服务器的方法也是类似。如何查找服务名请查看参考资料2。
+我们通过cmd来启动/关闭Mysql服务，打开cmd（win+R快捷键，输入cmd回车即可），在cmd中输入 `net start mysql`，来启动Mysql。其他功能实现请查看[参考资料1](http://blog.sina.com.cn/s/blog_92d6b8be0100wee2.html)。我在输入`net start mysql`后，cmd提示服务名无效。后来通过查看服务名，得知mysql的服务名为MYSQL57，因此，在启动时，输入命令为`net start mysql57` 就可以正常启动了，关闭服务器的方法也是类似。如何查找服务名请查看[参考资料2](http://www.jb51.net/os/windows/305941.html)。
 
 2.导入数据坑！安装完软件后，我们需要把csv格式的数据导入到数据库中，以便之后的操作，在导入数据过程中又遇到了坑！以下是正确的导入代码：Mysql命令结尾要填;
 
@@ -39,14 +39,16 @@ description: Mysql的安装过程
     load data infile 'D:\\project\\tianchi\\data\\mars_tianchi_user_actions.csv' 
     into table `action` 
     fields terminated by ',' optionally enclosed by '"' escaped by '"' 
-    lines terminated by '\n'; #导入csv数据
+    lines terminated by '\n'; #导入csv数据,文件路径不能包含中文
     desc action; #显示表信息
     # alter table action change Ds Ds varchar(10); 修改表中字段属性，仅作为例子
     select * from action limit 5; 查看前5行
 
-在导入数据时，软件提示：`1290- The MySQL server is running with the --secure-file-priv option so it cannot execute this statement`,这时我们需要打开Data文件（安装软件时设定的Data位置）中的my.ini文件（如果是默认安装，则在C:\ProgramData\MySQL\MySQL Server 5.6\my.ini，注意ProgramData为隐藏文件夹），复制一份作为备份，然后将里面的类似的一行 secure-file-priv="C:/ProgramData/MySQL/MySQL Server 5.6/Uploads" 删除。关闭服务器，再启动mysql服务，就可以了。
+在导入数据时，软件提示：`1290- The MySQL server is running with the --secure-file-priv option so it cannot execute this statement`,这时我们需要打开Data文件夹（安装软件时设定的Data位置）中的my.ini文件（如果是默认安装，则在C:\ProgramData\MySQL\MySQL Server 5.6\my.ini，注意ProgramData为隐藏文件夹），复制一份作为备份，然后将里面的类似的一行 secure-file-priv="C:/ProgramData/MySQL/MySQL Server 5.6/Uploads" 删除。关闭服务，再启动mysql服务，就可以了。
 
 <div align="center"><img src="http://7xo51k.com1.z0.glb.clouddn.com/Mysqlmysql3.jpg-wx" ></div>
+
+3.使用Mysql管理数据很方便，但是要查看数据就不是很方便了，我们可以安装一个navicat for mysql,可以很方便的查看管理数据。使用教程 [navicat连接mysql详细图文教程](http://www.jb51.net/softjc/290292.html)
 
 这只是初步的坑，后续的坑我会继续填上去的。
 
