@@ -60,7 +60,7 @@ description: 利用Python抓取人人贷散标及借款人数据
    
     loanId = list(databid['loanId'])
     i = 1
-    num = len(loanId)
+    num = len(loanId)-1
     while i <= num:
         loanid=loanId[i]
         timestamp=str(int(time.time())) + '%03d' % random.randint(0,999)
