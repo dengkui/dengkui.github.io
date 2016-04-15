@@ -32,7 +32,7 @@ description: 逻辑回归的原理及软件实现
 
 <div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=P(Y=1)=\frac{1}{1&plus;e^{-\theta&space;^{T}X}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?P(Y=1)=\frac{1}{1&plus;e^{-\theta&space;^{T}X}}" title="P(Y=1)=\frac{1}{1+e^{-\theta ^{T}X}}" /></a></div>
 
-这个函数实际上也就是[Sigmoid_function](https://en.wikipedia.org/wiki/Sigmoid_function)，函数表达式为：
+这个函数实际上也就是[Sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function)，函数表达式为：
 
 <div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=g(x)&space;=&space;\frac{1}{1&plus;e^{-x}}" target="_blank"><img src="http://latex.codecogs.com/png.latex?g(x)&space;=&space;\frac{1}{1&plus;e^{-x}}" title="g(x) = \frac{1}{1+e^{-x}}" /></a></div>
 
@@ -102,11 +102,11 @@ MLE并不像OLS估计那样，直接可以得到解的表现形式，因此，�
 
 <div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=\theta=\theta&plus;\gamma&space;X(Y-h_{\theta}(X))" target="_blank"><img src="http://latex.codecogs.com/png.latex?\theta=\theta&plus;\gamma&space;X(Y-h_{\theta}(X))" title="\theta=\theta+\gamma X(Y-h_{\theta}(X))" /></a></div>
 
-上面的推导是由最大似然求解出发，我们也可以考虑从cost function出发，逻辑回归中损失函数采用的是对数损失函数，表达形式如下：
+上面的推导是由最大似然求解出发，我们也可以考虑从cost function出发，逻辑回归中成本函数采用的是对数损失函数，表达形式如下：
 
 <div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=Cost(h_\theta(x),&space;y)&space;=&space;\left\{\begin{matrix}&space;-log(h_\theta(x))&&space;y&space;=&space;1&space;\\&space;-log(1&space;-&space;h_\theta(x))&&space;y&space;=&space;0&space;\end{matrix}\right." target="_blank"><img src="http://latex.codecogs.com/png.latex?Cost(h_\theta(x),&space;y)&space;=&space;\left\{\begin{matrix}&space;-log(h_\theta(x))&&space;y&space;=&space;1&space;\\&space;-log(1&space;-&space;h_\theta(x))&&space;y&space;=&space;0&space;\end{matrix}\right." title="Cost(h_\theta(x), y) = \left\{\begin{matrix} -log(h_\theta(x))& y = 1 \\ -log(1 - h_\theta(x))& y = 0 \end{matrix}\right." /></a></div>
 
-我们可以得到损失函数为：
+我们可以得到成本函数为：
 
 <div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=C(\theta)=\frac{1}{m}\sum_{i=1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)})&space;\\=-\frac{1}{m}&space;\left[&space;\sum_{i=1}^m&space;y^{(i)}&space;log(h_\theta(x^{(i)}))&space;&plus;&space;(1&space;-&space;y^{(i)})&space;log(1&space;-&space;h_\theta(x^{(i)}))&space;\right]" target="_blank"><img src="http://latex.codecogs.com/png.latex?C(\theta)=\frac{1}{m}\sum_{i=1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)})&space;\\=-\frac{1}{m}&space;\left[&space;\sum_{i=1}^m&space;y^{(i)}&space;log(h_\theta(x^{(i)}))&space;&plus;&space;(1&space;-&space;y^{(i)})&space;log(1&space;-&space;h_\theta(x^{(i)}))&space;\right]" title="C(\theta)=\frac{1}{m}\sum_{i=1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)}) \\=-\frac{1}{m} \left[ \sum_{i=1}^m y^{(i)} log(h_\theta(x^{(i)})) + (1 - y^{(i)}) log(1 - h_\theta(x^{(i)})) \right]" /></a></div>
 
@@ -133,7 +133,7 @@ MLE并不像OLS估计那样，直接可以得到解的表现形式，因此，�
 
 
 
-> <font size='3' face='Georgia'> <b>比如，我们有四组数据，正负样本情况为:y1=+1, y2=+1, y3=-1, y4=-1。</b> </font>
+> <font size='3' face='Georgia'> <b>比如，我们有四组数据，正负样本情况为:y1=+1, y2=+1, y3=-1, y4=-1</b> </font>
 
 > <font size='3' face='Georgia'> <b>模型1的预测为 y1=0.9, y2=0.5, y3=0.2, y4=0.6 </b></font>
 
@@ -143,7 +143,7 @@ MLE并不像OLS估计那样，直接可以得到解的表现形式，因此，�
 
 > <font size='3' face='Georgia'> <b>模型2： 正样本score大于负样本的pair包括(y2, y3),(y2, y4)，auc为2/4=0.5</b></font>
 
-> <font size='3' face='Georgia'> <b>在AUC准则下，模型1要优于模型2。</b></font>
+> <font size='3' face='Georgia'> <b>在AUC准则下，模型1要优于模型2 </b></font>
  
 ## **模型优化**
 

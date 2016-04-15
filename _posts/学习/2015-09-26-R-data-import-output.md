@@ -65,9 +65,10 @@ write.table()函数参数设置；
     write.table(x,file="data.txt")#将x导出到data.txt文件中
 
  同样的，我们也可以导出为csv格式文件，采用write.csv()函数，对应read.csv()函数。
- write.csv()函数参数设置： `write.csv(x,file=””,…)`
+ write.csv()函数参数设置： `write.csv(x,file=””,row.names…)`
     
-    write.csv(x,file="data.csv")#将x导出到data.csv文件中
+    write.csv(x,file="data.csv",row.names=F)#将x导出到data.csv文件中,同时设置不输出行名称，默认是输出的
+
 更多详细请?write,?write.table,？write.csv
   
 上面这些都是把R中数据导出到外部文件，但如果我们想直接把数据从R中复制到Excel中时，就可以使用命令：
