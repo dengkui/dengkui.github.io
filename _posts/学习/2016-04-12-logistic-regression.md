@@ -133,17 +133,17 @@ MLE并不像OLS估计那样，直接可以得到解的表现形式，因此，�
 
 
 
-> <font size='3' face='Arial'> 比如，我们有四组数据，正负样本情况为:y1=+1, y2=+1, y3=-1, y4=-1。</font>
+> <font size='3' face='Georgia'> **比如，我们有四组数据，正负样本情况为:y1=+1, y2=+1, y3=-1, y4=-1。** </font>
 
-> <font size='3' face='Georgia'>模型1的预测为 y1=0.9, y2=0.5, y3=0.2, y4=0.6</font>
+> <font size='3' face='Georgia'> **模型1的预测为 y1=0.9, y2=0.5, y3=0.2, y4=0.6**</font>
 
-> <font size='3'>模型2的预测为 y1=0.1, y2=0.9, y3=0.8, y4=0.2</font>
+> <font size='3' face='Georgia'> **模型2的预测为 y1=0.1, y2=0.9, y3=0.8, y4=0.2** </font>
 
-> <font size='3'>模型1： 正样本score大于负样本的pair包括(y1, y3), (y1, y4), (y2, y3)，auc为3/4=0.75</font>
+> <font size='3' face='Georgia'> **模型1： 正样本score大于负样本的pair包括(y1, y3), (y1, y4), (y2, y3)，auc为3/4=0.75**</font>
 
-> <font size='3'>模型2： 正样本score大于负样本的pair包括(y2, y3),(y2, y4)，auc为2/4=0.5</font>
+> <font size='3' face='Georgia'> **模型2： 正样本score大于负样本的pair包括(y2, y3),(y2, y4)，auc为2/4=0.5**</font>
 
-> <font size='3'>在AUC准则下，模型1要优于模型2。</font>
+> <font size='3' face='Georgia'> **在AUC准则下，模型1要优于模型2。**</font>
  
 ## **模型优化**
 
