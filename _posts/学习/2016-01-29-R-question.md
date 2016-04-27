@@ -30,5 +30,13 @@ description: 常见问题答疑
    duplicated(x)#获取向量和数据框中的每一行是否重复的逻辑向量
    data[!duplicated(data),] #获取非重复值
 
+    6. 当前工作环境去除某个已经加载的包
+   
+   detach('package:dplyr',unload = T)
+
+    7. 查看某个函数或方法
+
+   trace('lm',edit=T)
+
 ----------
 未完待续
