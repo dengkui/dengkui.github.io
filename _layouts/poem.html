@@ -13,13 +13,13 @@ layout: base
     </div>
     <br />
 	<div class="row">
-      {% for poem in page.poem %}
+      {% for poem in page.poems %}
           <div class="panel panel-success">
             <div class="panel-heading">
 			   <p class="text-center"><strong>{{ poem.title }}<small>{{ poem.subtitle }}</small></strong></p>
 			</div>
             <div class="panel-body">
-                <p class="text-center">{{words}}</p>
+                <p class="text-center">{{poem.words}}</p>
             </div>    
           </div>
       {% endfor %}
