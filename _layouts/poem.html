@@ -16,10 +16,10 @@ layout: base
       {% for poem in page.poems %}
           <div class="panel panel-success">
             <div class="panel-heading">
-			   <p class="text-center"><strong>{{ poem.title }}<small>{{ poem.subtitle }}</small></strong></p>
+			   <p class="text-center"><strong><font size="+2">{{ poem.title }}<small>{{ poem.subtitle }}</small></font></strong></p>
 			</div>
             <div class="panel-body">
-                <p class="text-center"><font face='Microsoft YaHei' size ="+2">{{poem.words}}</font></p>
+                <p class="text-center"><font face='Arial' size ="+0">{{poem.words}}</font></p>
             </div>    
           </div>
       {% endfor %}
