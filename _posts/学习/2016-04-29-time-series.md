@@ -221,3 +221,5 @@ Python中也提供了完整的时间序列处理方式，详见《利用Python �
 【3】 [CRAN Task View: Time Series Analysis](https://cran.r-project.org/web/views/TimeSeries.html)
 
 【4】R语言核心技术手册
+
+【5】[R语言时间序列基础库zoo](http://blog.fens.me/r-zoo/)
