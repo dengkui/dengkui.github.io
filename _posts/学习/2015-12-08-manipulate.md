@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  manipulate学习
+title:  R manipulate 交互式包
 category: 学习
 tags:  可视化        
 keywords: 交互式图形
