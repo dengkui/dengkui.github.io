@@ -31,7 +31,7 @@ description:
 
 【11】[ RGB颜色值与十六进制颜色码转换工具](http://www.sioe.cn/yingyong/yanse-rgb-16/)
 
-
+【12】[时间序列预测教程（R）](https://www.otexts.org/fpp)
 
 未完待续
 
