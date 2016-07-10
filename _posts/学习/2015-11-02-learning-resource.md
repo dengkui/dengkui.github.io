@@ -33,6 +33,8 @@ description:
 
 【12】[时间序列预测教程（R）](https://www.otexts.org/fpp)
 
+【13】[kindle电子书资源](http://kankandou.com/)
+
 未完待续
 
 ----------
