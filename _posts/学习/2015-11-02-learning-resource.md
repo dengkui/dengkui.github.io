@@ -35,6 +35,8 @@ description:
 
 【13】[kindle电子书资源](http://kankandou.com/)
 
+【14】[Scrapy文档](http://scrapy-chs.readthedocs.io/zh_CN/0.24/index.html)
+
 未完待续
 
 ----------
