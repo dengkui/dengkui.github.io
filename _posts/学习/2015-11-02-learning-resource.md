@@ -37,6 +37,8 @@ description:
 
 【14】[Scrapy文档](http://scrapy-chs.readthedocs.io/zh_CN/0.24/index.html)
 
+【14】[在线电子书转换器](http://cn.epubee.com/)
+
 未完待续
 
 ----------
