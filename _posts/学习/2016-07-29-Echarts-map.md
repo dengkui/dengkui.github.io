@@ -66,14 +66,6 @@ description: Echarts学习记录
             map: 'china',
 			left: 'left',
 			top: 'top',
-			//layoutCenter: ['30%','30%'],
-			//layoutSize: 100,
-			//mapLocation: {
-			//显示主地图的位置及其大小
-              //  x: 'left',
-                //y: 'top',
-                //width: '50%'
-            //},
             roam: false,//地图不允许拖动
             selectedMode : 'single',
             label:{
@@ -104,7 +96,7 @@ description: Echarts学习记录
                 {name: '广西', selected:false},
                 {name: '甘肃', selected:false},
                 {name: '山西', selected:true},//默认选中
-                {name: '内蒙古',selected:false},//默认选中
+                {name: '内蒙古',selected:false},
                 {name: '陕西', selected:false},
                 {name: '吉林', selected:false},
                 {name: '福建', selected:false},
@@ -138,8 +130,8 @@ description: Echarts学习记录
         }
     }
     //alert(selectedProvince);//所选择省的名字
-     console.log(selectedProvince);
-     console.log(typeof selectedProvince);
+     //console.log(selectedProvince);
+     //console.log(typeof selectedProvince);
     if (typeof selectedProvince == 'undefined') {
         option.series.splice(1);
         option.legend = null;
@@ -154,11 +146,6 @@ description: Echarts学习记录
         left: '60%',
         top: '15%',
         width: '20%',
-    //    mapLocation: {//显示子地图的位置及其大小
-      //      x: 'right',
-        //    y: 'top',
-          //  width: '50%'
-       // },
         roam: true,//地图允许拖动
         label: {
             emphasis: {
@@ -181,20 +168,20 @@ description: Echarts学习记录
             {name: '东城区',value: Math.round(Math.random()*1000)},
             {name: '西城区',value: Math.round(Math.random()*1000)},
             {name: '石景山区',value: Math.round(Math.random()*1000)},
-			{name: '丰台区',value: Math.round(Math.random()*1000)},
-			{name: '朝阳区',value: Math.round(Math.random()*1000)},
-			{name: '怀柔区',value: Math.round(Math.random()*1000)},
-			{name: '延庆县',value: Math.round(Math.random()*1000)},		
-			{name: '密云县',value: Math.round(Math.random()*1000)},		
-			{name: '平谷区',value: Math.round(Math.random()*1000)},			
-			{name: '顺义区',value: Math.round(Math.random()*1000)},
-			{name: '昌平区',value: Math.round(Math.random()*1000)},		
-			{name: '门头沟区',value: Math.round(Math.random()*1000)},
-			{name: '房山区',value: Math.round(Math.random()*1000)},
-			{name: '大兴区',value: Math.round(Math.random()*1000)},		
-			{name: '通州区',value: Math.round(Math.random()*1000)},
+            {name: '丰台区',value: Math.round(Math.random()*1000)},
+            {name: '朝阳区',value: Math.round(Math.random()*1000)},
+            {name: '怀柔区',value: Math.round(Math.random()*1000)},
+            {name: '延庆县',value: Math.round(Math.random()*1000)},		
+            {name: '密云县',value: Math.round(Math.random()*1000)},		
+            {name: '平谷区',value: Math.round(Math.random()*1000)},			
+            {name: '顺义区',value: Math.round(Math.random()*1000)},
+            {name: '昌平区',value: Math.round(Math.random()*1000)},		
+            {name: '门头沟区',value: Math.round(Math.random()*1000)},
+            {name: '房山区',value: Math.round(Math.random()*1000)},
+            {name: '大兴区',value: Math.round(Math.random()*1000)},		
+            {name: '通州区',value: Math.round(Math.random()*1000)},
             {name: '天津市',value: Math.round(Math.random()*1000)},
-			{name: '蓟县',value: Math.round(Math.random()*1000)},	
+            {name: '蓟县',value: Math.round(Math.random()*1000)},	
 			{name: '宝坻区',value: Math.round(Math.random()*1000)},
 			{name: '武清区',value: Math.round(Math.random()*1000)},
 			{name: '北辰区',value: Math.round(Math.random()*1000)},
@@ -612,8 +599,7 @@ description: Echarts学习记录
         min: 0,
         max: 1000,
         color: ['#50a3ba', '#eac736', '#d94e5d'],
-      text:['高','低'],           // 文本，默认为数值文本
-		//text: ['圆形大小：PM2.5'],
+        text:['高','低'],           // 文本，默认为数值文本
 		calculable : true,
         splitNumber:0
     };
