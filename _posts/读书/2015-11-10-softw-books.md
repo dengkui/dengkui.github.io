@@ -4,6 +4,14 @@ title: 软件学习书籍
 category: 阅读
 keywords: 软件学习
 books: 
+    - title: 数据可视化实战
+      status: 已读
+      author: Scott Murray 李松峰 译 
+      publisher: 人民邮电出版社
+      language: 中文
+      link: https://book.douban.com/subject/24748670/
+      cover: https://img3.doubanio.com/lpic/s26707056.jpg
+      description: D3.js入门书籍
     - title: R语言实战
       status: 在读
       author: 卡巴科弗 (Robert I.Kabacoff) 
