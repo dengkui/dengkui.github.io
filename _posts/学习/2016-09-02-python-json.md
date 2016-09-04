@@ -9,7 +9,7 @@ description: 利用Python处理json字符串
 
 json作为一类重要的数据形式，必须转换为常见的数据形式才能用于分析，这篇文档介绍了如何利用Python对json数据进行转换，并对常见的json解析问题进行了介绍。
 
-##JSON简介
+## JSON简介
 
 JSON 指的是 JavaScript 对象表示法（JavaScript Object Notation），是一种文本格式数据，常见于网页数据分析。
 

@@ -57,6 +57,8 @@ description: 地铁时光消遣
 
 ### 3. 对某网站json数据进行整理汇总(仍有部分不规范json数据需单独处理）
 
+实现语言： Python
+
 思路：解析json数据，提取数据，整理成dataframe格式，合并数据
 
     import json
