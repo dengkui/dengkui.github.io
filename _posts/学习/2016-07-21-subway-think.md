@@ -145,22 +145,22 @@ description: 地铁时光消遣
     MessagesInfo = []
     for i in range(num):
         demotxt = data[i]+']}'#补全json
-    try:
-        jsinfo = json.loads(demotxt)
-    except json.decoder.JSONDecodeError:
-        re_item = re.compile(r'(?<=[{,])\w+[^,]_?\w+(?=:)')#json中键没有用双引号
-        jsinfo = re_item.sub("\"\g<0>\"", demotxt)#加上双引号
-        jsinfo = json.loads(jsinfo)
-    headinfo = pd.DataFrame(jsinfo['headInfo'],index=[str(i)])
-    deviceinfo = pd.DataFrame(jsinfo['deviceInfo'],index=[str(i)])
-    Messages = pd.DataFrame(jsinfo['messages'])
-    if len(Messages) == 0:#如果message信息为空
-        messagesInfo = pd.DataFrame({"video_id":np.nan},index=[str(i)])
-    else:
-        messagesInfo = MesInfo(jsinfo,i)
-    MessagesInfo.append(messagesInfo)
-    HeadInfo.append(headinfo)
-    DeviceInfo.append(deviceinfo)
+        try:
+            jsinfo = json.loads(demotxt)
+        except json.decoder.JSONDecodeError:
+            re_item = re.compile(r'(?<=[{,])\w+[^,]_?\w+(?=:)')#json中键没有用双引号
+            jsinfo = re_item.sub("\"\g<0>\"", demotxt)#加上双引号
+            jsinfo = json.loads(jsinfo)
+        headinfo = pd.DataFrame(jsinfo['headInfo'],index=[str(i)])
+        deviceinfo = pd.DataFrame(jsinfo['deviceInfo'],index=[str(i)])
+        Messages = pd.DataFrame(jsinfo['messages'])
+        if len(Messages) == 0:#如果message信息为空
+            messagesInfo = pd.DataFrame({"video_id":np.nan},index=[str(i)])
+        else:
+            messagesInfo = MesInfo(jsinfo,i)
+        MessagesInfo.append(messagesInfo)
+        HeadInfo.append(headinfo)
+        DeviceInfo.append(deviceinfo)
 
     HeadInfo = pd.concat(HeadInfo)#headinfo
     DeviceInfo = pd.concat(DeviceInfo)#deviceinfo

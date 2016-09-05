@@ -59,7 +59,18 @@ Json数据有其独特的一套表达形式：一个Json对象由花括号括起
 
 ## JSON数据处理
 
-Json数据同我们常见的行列数据格式不同，但我们可以通过Python的`pandas.DataFrame`实现两者之间的轻松转换。DataFrame可以对字典进行转换，其中键作为列名。下面对上文数据中的authors信息进行提取。
+Json数据同我们常见的行列数据格式不同,但我们可以通过两步实现json字符串到数据框的转换：
+
+1. 解析json字符串为json对象。
+   
+        import json
+        json.loads(json字符串）
+
+2. 将json对象转换为数据框形式。
+
+     pandas库中的DataFrame可以对json对象进行转换，其中json对象名称作为列名。
+
+下面对上文数据中的authors信息进行提取，将其转换为数据框形式。
 
     import pandas as pd 
     import json
@@ -70,7 +81,7 @@ Json数据同我们常见的行列数据格式不同，但我们可以通过Pyth
 经过转换后的数据就成了这种形式（仅仅包含author信息）：
 
     Aurdata
-    firstName             genre  lastName
+        firstName        genre     lastName
     0     Isaac    sciencefiction    Asimov
     1       Tad           fantasy  Williams
     2     Frank  christianfiction   Peretti
