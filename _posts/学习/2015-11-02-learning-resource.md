@@ -39,6 +39,8 @@ description:
 
 【14】[在线电子书转换器](http://cn.epubee.com/)
 
+【15】[Python爬虫资料](https://github.com/lining0806/PythonSpiderNotes)
+
 未完待续
 
 ----------

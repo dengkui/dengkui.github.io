@@ -88,7 +88,7 @@ description: 逻辑回归的原理及软件实现
 
 整理：
 
-<div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=y_{1}(1-h_\theta(X_{(1)}))X_{1}-(1-y_{1})h_\theta(X_{(1)})X_{1}&space;\\&space;=(y-{1}-h_\theta(X_{(1)}))X_{1}" target="_blank"><img src="http://latex.codecogs.com/png.latex?y_{1}(1-h_\theta(X_{(1)}))X_{1}-(1-y_{1})h_\theta(X_{(1)})X_{1}&space;\\&space;=(y-{1}-h_\theta(X_{(1)}))X_{1}" title="y_{1}(1-h_\theta(X_{(1)}))X_{1}-(1-y_{1})h_\theta(X_{(1)})X_{1} \\ =(y-{1}-h_\theta(X_{(1)}))X_{1}" /></a></div>
+<div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=y_{1}(1-h_\theta(X_{(1)}))X_{1}-(1-y_{1})h_\theta(X_{(1)})X_{1}&space;\\&space;=(y-{1}-h_\theta(X_{(1)}))X_{1}" target="_blank"><img src="http://latex.codecogs.com/png.latex?y_{1}(1-h_\theta(X_{(1)}))X_{1}-(1-y_{1})h_\theta(X_{(1)})X_{1}&space;\\&space;=(y_{1}-h_\theta(X_{(1)}))X_{1}" title="y_{1}(1-h_\theta(X_{(1)}))X_{1}-(1-y_{1})h_\theta(X_{(1)})X_{1} \\ =(y-{1}-h_\theta(X_{(1)}))X_{1}" /></a></div>
 
 进而
 

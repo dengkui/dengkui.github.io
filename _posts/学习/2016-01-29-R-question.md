@@ -38,5 +38,9 @@ description: 常见问题答疑
 
    trace('lm',edit=T)
 
+    8. 添加Latex公式
+
+    使用latex2exp包显示Latex公式，具体见https://github.com/stefano-meschiari/latex2exp，另外plotly中添加希腊字母之类的可以使用html格式，比如"&mu;"
+
 ----------
 未完待续
