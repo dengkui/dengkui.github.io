@@ -18,7 +18,7 @@ books:
       publisher: 人民邮电出版社
       language: 中文
       link: http://book.douban.com/subject/20382244/
-      cover: http://img3.douban.com/lpic/s24576400.jpg
+      cover: https://img3.doubanio.com/lpic/s24576400.jpg
       description: R语言最佳入门书
     - title: R语言统计分析软件教程
       status: 已读
@@ -42,7 +42,7 @@ books:
       publisher: 
       language: 中文
       link: http://book.douban.com/subject/3337668/
-      cover: http://img3.douban.com/lpic/s3405912.jpg
+      cover: https://img3.doubanio.com/lpic/s3405912.jpg
       description: R语言统计学习
     - title: R语言核心技术手册
       status: 在读
@@ -50,7 +50,7 @@ books:
       publisher: 电子工业出版社
       language: 中文
       link: http://book.douban.com/subject/25959153/
-      cover: http://img3.doubanio.com/lpic/s27404418.jpg
+      cover: https://img1.doubanio.com/lpic/s27404418.jpg
       description: R语言统计学习
     - title: R Graph Cookbook
       status: 已读
@@ -58,7 +58,7 @@ books:
       publisher: Packt Publishing
       language: 英文
       link: http://book.douban.com/subject/5953424/
-      cover: http://img3.douban.com/lpic/s4615821.jpg
+      cover: https://img3.doubanio.com/lpic/s4615821.jpg
       description: R语言可视化，代码非常详细，入门绝佳图书
     - title: Lattice：Multivariate Data Visualization with R (Use R)
       status: 已读
@@ -74,7 +74,7 @@ books:
       publisher: 西安交通大学出版社
       language: 中文
       link: http://book.douban.com/subject/24527091/
-      cover: http://img3.douban.com/lpic/s28372050.jpg
+      cover: https://img3.doubanio.com/lpic/s28372050.jpg
       description: R语言可视化包ggplot2的详细介绍，语法简洁优雅
     - title: Python基础教程
       status: 已读
@@ -82,7 +82,7 @@ books:
       publisher: 人民邮电出版社
       language: 中文
       link: http://book.douban.com/subject/4866934/
-      cover: http://img3.douban.com/lpic/s4387251.jpg
+      cover: https://img3.doubanio.com/lpic/s4387251.jpg
       description: Python基础教程，看前八章就可以了。
     - title: 利用Python进行数据分析
       status: 已读
@@ -90,7 +90,7 @@ books:
       publisher: 机械工业出版社
       language: 中文
       link: http://book.douban.com/subject/25779298/
-      cover: http://img3.douban.com/lpic/s27275372.jpg
+      cover: https://img3.doubanio.com/lpic/s27275372.jpg
       description: Python数据分析学习的绝佳书籍，案例详细，讲解明确。
     - title: 机器学习实战
       status: 已读
@@ -98,7 +98,7 @@ books:
       publisher: 人民邮电出版社
       language: 中文
       link: http://book.douban.com/subject/24703171/
-      cover: http://img3.douban.com/lpic/s26696371.jpg
+      cover: https://img3.doubanio.com/lpic/s26696371.jpg
       description: 利用Python语言实现基本机器学习算法
     - title: 机器学习与R语言
       status: 已读
