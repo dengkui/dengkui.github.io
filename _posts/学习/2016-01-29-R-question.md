@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  R  答疑帖
+title:  R/Python  答疑帖
 category: 学习
 tags:  交流互助        
 keywords: R 
 description: 常见问题答疑
 ---
 
-这篇文章用以记录周围人提问关于R的较为简单的问题，并做一答复记录。
+这篇文章用以记录遇到的较为简单的问题，并做一答复记录。
 
+##R
     1. 查询修改当前工作目录
 
 　　getwd()来获取当前的工作目录，如果不加以指定，一般R文件的保存都在这个目录中。set()指定当前工作目录，注意路径使用正斜杠/
@@ -40,7 +41,12 @@ description: 常见问题答疑
 
     8. 添加Latex公式
 
-    使用latex2exp包显示Latex公式，具体见https://github.com/stefano-meschiari/latex2exp，另外plotly中添加希腊字母之类的可以使用html格式，比如"&mu;"
+   使用latex2exp包显示Latex公式，具体见https://github.com/stefano-meschiari/latex2exp，另外plotly中添加希腊字母之类的可以使用html格式，比如"&mu;"
+
+## Python
+    1.pip命令安装包出错，提示`error:Microsoft Visual C++ 9.0 is required` 
+
+   安装一个[Micorsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266)的包。具体方法参考[Windows下pip安装包报错：Microsoft Visual C++ 9.0 is required Unable to find vcvarsall.bat](http://www.cnblogs.com/ldm1989/p/4210743.html)
 
 ----------
 未完待续
