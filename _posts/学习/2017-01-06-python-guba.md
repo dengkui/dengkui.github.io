@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python 抓取股吧帖子数据
+title:  Python 股吧帖子数据抓取
 category: 学习
 tags:  数据抓取 
 keywords: Python 数据抓取  股吧帖子

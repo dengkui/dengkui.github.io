@@ -9,7 +9,7 @@ description: 在Spark上运行Scala语言编写的Louvain算法
 
 Louvain是一种社区发现算法，本篇文章主要讲述如何对算法代码进行打包并放置到服务器上通过命令行方式传入参数运行并输出计算结果。如果想了解Louvain算法的细节，请移步[Louvain社区发现算法](http://www.ithao123.cn/content-6027541.html)，并查看相应的论文。
 
-##软件环境
+## 软件环境
 
 本篇文章利用Spark实现Louvain算法,通过本地访问服务器的方式在服务器上运行算法。
 
@@ -22,7 +22,7 @@ Louvain是一种社区发现算法，本篇文章主要讲述如何对算法代�
 
 服务器上需要安装Spark
  
-##算法打包
+## 算法打包
 
 Louvain算法在github上有许多实现，我采用的是[这篇文章的版本](http://www.jianshu.com/p/4ebe42dfa8ec)（感谢作者的无私分享），并对其代码做了一些修改，使打包后的代码可以实现输入三个参数：输入文件地址，输出文件地址，Master运行方式。
 
@@ -47,7 +47,7 @@ Louvain算法在github上有许多实现，我采用的是[这篇文章的版本
 
 scala代码文件写好后，如果没有提示错误，我们就可以打包成jar包运行，打包过程参见参考资料6，值得注意的是，scala文件打包并不选择main函数入口。
 
-##上传运行
+## 上传运行
 
 将打包好的jar包和其依赖的jar包一并上传到服务器，通过spark-submit命令运行打包，运行程序如下：
 
@@ -60,7 +60,7 @@ scala代码文件写好后，如果没有提示错误，我们就可以打包成
         hadoop fs -cat /tmp/test1.txt/part-00000
         hadoop fs -cat /tmp/test1.txt/part-00001
 
-##参考资料
+## 参考资料
 
 【1】[社区发现算法-Louvain](http://www.jianshu.com/p/4ebe42dfa8ec)
 
