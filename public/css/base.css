@@ -80,13 +80,14 @@ body, html {
   overflow-y: auto;
   background-color: #fff;
   overflow-x: hidden;
-  /*background-image: url(/public/img/beauty.jpg);*/
+  background-image: url(/public/img/beauty.jpg);
+  background-repeat: no-repeat;
 }
 .aside3-title {
   background-color: #f5f5f5;
   background-image: url(/public/img/beauty.jpg);
   background-position: left top;
-  backgroud-repeat: no-repeat
+  background-repeat: no-repeat;
   border-bottom: 1px solid #f5f5f5;
   padding-left: 30px;
   padding-right: 30px;
