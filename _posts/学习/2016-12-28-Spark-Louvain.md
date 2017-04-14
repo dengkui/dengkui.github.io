@@ -2,7 +2,7 @@
 layout: post
 title:  Spark 社区发现Louvain算法的打包运行
 category: 学习
-tags:  模型安装	        
+tags:  模型学习	        
 keywords: Spark  Louvain
 description: 在Spark上运行Scala语言编写的Louvain算法
 ---
