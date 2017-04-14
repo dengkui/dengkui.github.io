@@ -4,6 +4,14 @@ title: 软件学习书籍
 category: 阅读
 keywords: 软件学习
 books: 
+    - title: Advanced R
+      status: 在读
+      author: Hadley Wickham 
+      publisher: Chapman and Hall
+      language: 英文
+      link: https://book.douban.com/subject/26155050/
+      cover: https://img3.doubanio.com/lpic/s27644115.jpg
+      description: R语言进阶必读
     - title: 数据可视化实战
       status: 已读
       author: Scott Murray 李松峰 译 

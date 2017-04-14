@@ -2,7 +2,7 @@
 layout: post
 title:  Mysql安装及学习
 category: 学习
-tags:  软件安装        
+tags:  软件学习        
 keywords: Mysql 
 description: Mysql的安装过程
 ---
