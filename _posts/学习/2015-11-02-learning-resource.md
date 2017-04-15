@@ -2,7 +2,7 @@
 layout: post
 title: 学习资源汇总
 category: 学习
-tags: 交流互助
+tags: 理论学习
 keywords: 学习资源
 description: 
 ---

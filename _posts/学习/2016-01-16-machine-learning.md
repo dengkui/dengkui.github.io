@@ -2,7 +2,7 @@
 layout: post
 title:  《Python机器学习实战》记录帖
 category: 学习
-tags:  模型学习        
+tags:  理论学习        
 keywords: Python 
 description: 学习记录
 ---

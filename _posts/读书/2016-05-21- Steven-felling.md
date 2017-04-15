@@ -2,7 +2,7 @@
 layout: post
 title: 看完乔布斯
 category: 阅读
-tags: 阅读
+tags: 书益友
 keywords:  
 description: 
 ---

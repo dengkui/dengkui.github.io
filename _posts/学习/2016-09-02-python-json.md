@@ -2,7 +2,7 @@
 layout: post
 title:  Python Json标准化处理
 category: 学习
-tags:  自动便利	        
+tags:  软件学习	        
 keywords: json  Python
 description: 利用Python处理json字符串
 ---

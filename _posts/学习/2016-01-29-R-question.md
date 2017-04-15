@@ -2,14 +2,15 @@
 layout: post
 title:  R/Python  答疑帖
 category: 学习
-tags:  交流互助        
+tags:  软件学习        
 keywords: R 
 description: 常见问题答疑
 ---
 
 这篇文章用以记录遇到的较为简单的问题，并做一答复记录。
 
-##R
+## R
+
     1. 查询修改当前工作目录
 
 　　getwd()来获取当前的工作目录，如果不加以指定，一般R文件的保存都在这个目录中。set()指定当前工作目录，注意路径使用正斜杠/

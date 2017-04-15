@@ -2,7 +2,7 @@
 layout: post
 title:  R 数据读入及导出
 category: 学习
-tags:  自动便利        
+tags:  软件学习        
 keywords: 数据处理
 description: R语言读取数据及导出
 ---

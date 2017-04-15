@@ -2,7 +2,7 @@
 layout: post
 title: R/Python 文件操作
 category: 学习
-tags:  自动便利        
+tags:  软件学习        
 keywords: 
 description: 用程序对文件进行自动操作
 ---

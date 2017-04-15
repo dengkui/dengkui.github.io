@@ -2,7 +2,7 @@
 layout: post
 title:  实习小结
 category: 生活
-tags:  随感
+tags:  有所思
 keywords: 
 description: 
 ---

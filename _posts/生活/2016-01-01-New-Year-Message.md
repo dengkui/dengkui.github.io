@@ -2,7 +2,7 @@
 layout: post
 title:  寄语2016
 category: 生活
-tags:  随感
+tags:  有所思
 keywords: 
 description: 有所爱，有所思，有所为
 ---

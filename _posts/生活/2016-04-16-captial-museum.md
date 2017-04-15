@@ -2,7 +2,7 @@
 layout: post
 title:  海昏侯展览记
 category: 生活
-tags:  随感
+tags:  有所思
 keywords: 
 description: 首都博物馆见闻感受
 ---

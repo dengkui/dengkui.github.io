@@ -2,7 +2,7 @@
 layout: post
 title:  谈郭老板戒酒
 category: 生活
-tags:  随感
+tags:  有所思
 keywords: 
 description: 
 ---

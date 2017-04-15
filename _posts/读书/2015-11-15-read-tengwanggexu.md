@@ -2,7 +2,7 @@
 layout: post
 title:  重读《滕王阁序》
 category: 阅读
-tags: 阅读
+tags: 书益友
 keywords: 《滕王阁序》
 description: 君子见机，达人知命
 ---

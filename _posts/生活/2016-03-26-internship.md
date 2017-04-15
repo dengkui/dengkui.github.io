@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  也叹找实习不易
+title:  找实习记
 category: 生活
-tags:  随感
+tags:  有所思
 keywords: 
 description: 
 ---

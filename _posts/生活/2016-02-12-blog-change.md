@@ -2,7 +2,7 @@
 layout: post
 title:  网站折腾记
 category: 生活
-tags:  随感
+tags:  有所思
 keywords: 
 description: 博客网站进行优化
 ---

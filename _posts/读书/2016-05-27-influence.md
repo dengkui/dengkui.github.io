@@ -2,7 +2,7 @@
 layout: post
 title: 随处可见的心理规则
 category: 阅读
-tags: 阅读
+tags: 书益友
 keywords:  
 description: 
 ---

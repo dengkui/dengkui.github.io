@@ -27,10 +27,10 @@ ga:
   url: dengkui.space
   
 #多说
-comments :
-     provider : duoshuo
-     duoshuo : 
-     short_name : dengkui
+#comments :
+#     provider : duoshuo
+#     duoshuo : 
+#     short_name : dengkui
 
 # 主题设置，自动激活某个标签
 active: 阅读
@@ -47,4 +47,4 @@ locals:
   about: 关于
   newest: 最新文章
   archive: 归档
-  guestbook: 留言
+#  guestbook: 留言

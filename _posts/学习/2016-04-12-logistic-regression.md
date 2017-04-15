@@ -2,7 +2,7 @@
 layout: post
 title:  逻辑回归
 category: 学习
-tags:  模型学习	        
+tags:  理论学习	        
 keywords: 逻辑回归  logistic regression R Python  
 description: 逻辑回归的原理及软件实现
 ---
