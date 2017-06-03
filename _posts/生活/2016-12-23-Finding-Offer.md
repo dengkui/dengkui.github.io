@@ -37,14 +37,15 @@ description:
 </center>
 - **求职网站**
 <center>
-[![人力资源和社会保障部](http://www.mohrss.gov.cn/images/logo1_20160310.png)](http://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyqyzpyjgxbys/yqzpxxgk/)
+<a href="http://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyqyzpyjgxbys/yqzpxxgk/"><img src="http://www.mohrss.gov.cn/images/logo1_20160310.png" alt="人力资源和社会保障部" /></a>
 </center>
+
 <center>
-<a href="https://bbs.qzzn.com/"><img src="https://bbs.qzzn.com/static/image/common/logo.png" alt="公务员论坛" /></a>
-[![应届生求职网](http://static1.yingjiesheng.net/html/images/logo.gif)](http://www.yingjiesheng.com/deadline/)
-[![中华英才网](http://static2.chinahr.com/themes/op/pc/appGate/images/logo.jpg)](http://www.chinahr.com/)
-[![中华英才网](https://f1.dajieimg.com/n/corp_square_logo/T1XpbvBC_v1R4cSCrK_b.png)](https://campus.dajie.com/index)
+<a href="http://www.yingjiesheng.com/deadline/"><img src="http://static1.yingjiesheng.net/html/images/logo.gif" alt="应届生求职网" /></a>
+<a href="http://www.chinahr.com/"><img src="http://static2.chinahr.com/themes/op/pc/appGate/images/logo.jpg" alt="中华英才网" /></a>
+<a href="https://campus.dajie.com/index"><img src="https://f1.dajieimg.com/n/corp_square_logo/T1XpbvBC_v1R4cSCrK_b.png" alt="中华英才网" /></a>
 </center>
+
 ## **3.笔试面试**
 
 
@@ -111,7 +112,7 @@ description:
 
 - **公务员论坛**
 <center>
-[![公务员论坛](https://bbs.qzzn.com/static/image/common/logo.png)](https://bbs.qzzn.com/)
+<a href="https://bbs.qzzn.com/"><img src="https://bbs.qzzn.com/static/image/common/logo.png" alt="公务员论坛" /></a>
 </center>
 - **手机应用**
 
