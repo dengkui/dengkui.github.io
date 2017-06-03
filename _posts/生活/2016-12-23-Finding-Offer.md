@@ -40,6 +40,7 @@ description:
 [![人力资源和社会保障部](http://www.mohrss.gov.cn/images/logo1_20160310.png)](http://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyqyzpyjgxbys/yqzpxxgk/)
 </center>
 <center>
+<a href="https://bbs.qzzn.com/"><img src="https://bbs.qzzn.com/static/image/common/logo.png" alt="公务员论坛" /></a>
 [![应届生求职网](http://static1.yingjiesheng.net/html/images/logo.gif)](http://www.yingjiesheng.com/deadline/)
 [![中华英才网](http://static2.chinahr.com/themes/op/pc/appGate/images/logo.jpg)](http://www.chinahr.com/)
 [![中华英才网](https://f1.dajieimg.com/n/corp_square_logo/T1XpbvBC_v1R4cSCrK_b.png)](https://campus.dajie.com/index)
@@ -82,7 +83,7 @@ description:
 3. [浏览器摄像头调用测试地址](http://chrome.360.cn/html5_labs/demos/mediacapture/)
 
 
-# <center>**公务员篇**</center>
+# <center>公务员篇</center>
 
 ## **1.笔试报名**
 
@@ -138,7 +139,7 @@ description:
 
 2. 面试阶段： 面试阶段需要大量的开口练习，经济条件尚可或不自信者可以报班
 
-# <center>**研一研二**</center>
+# <center>研一研二</center>
 
 ----------
 
@@ -161,7 +162,7 @@ description:
 
 ----------
 
-# <center>**反思&心态**</center>
+# <center>反思&心态</center>
 
 9月份校招开始后，就应该开始投简历了，应该明确自己投简历的方向，不是所有的公司都投，不是所有的职位都投。投简历如果有熟人内推较好，不认识的人内推就算了吧。
 
