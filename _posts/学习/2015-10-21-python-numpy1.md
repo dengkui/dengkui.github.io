@@ -31,7 +31,7 @@ description:
     
       示例：np.random.randn(2,2)
     
-4.  normal: 生成正态分布
+4.normal: 生成正态分布
        
 语法：normal(loc=0.0, scale=1.0, size=None)
        
@@ -39,7 +39,7 @@ description:
      
     示例：np.random.normal(1,2,(2,3))
     
-5.  multivariate_normal: 生成多元正态分布
+5.multivariate_normal: 生成多元正态分布
        
 语法：multivariate_normal(mean, cov[, size])
        
