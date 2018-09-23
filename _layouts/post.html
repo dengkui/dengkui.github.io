@@ -15,6 +15,34 @@ layout: base
 	<hr>
   </div>
  
+ <head>
+    <meta charset="UTF-8">
+    <title>Valine - A simple comment system based on Leancloud.</title>
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库:-->
+    <script src="/Valine-1.1.8/dist/Valine.min.js"></script>
+
+
+</head>
+
+   <div class="comment"></div>
+    
+    <script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment', // 
+            app_id: 'r4bhiJ2xAPvx9aJNVjdbmwz1-gzGzoHsz', // 这里填写上面得到的APP ID
+            app_key: 'F3m3HEVXtEnsmL4Da8gX2H8d', // 这里填写上面得到的APP KEY
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!', // [v1.0.7 new]留言框占位提示文字
+            avatar:'wavatar',
+            path:window.location.pathname,
+            pageSize:10,
+        });
+    </script>
+	
+	
   <!-- 目录 -->
   <div id="content_table" style="position:fixed;right:20px;top:120px;display:none;">
     <div class="panel panel-success">
